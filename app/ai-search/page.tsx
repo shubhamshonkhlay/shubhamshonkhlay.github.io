@@ -41,10 +41,10 @@ export default function AISearchPage() {
       </section>
 
       <img
-        src="/images/ai-search-optimization.jpg"
-        alt="AI Search Optimization"
-        className="w-full rounded-xl mb-12"
-      />
+  src="/images/ai-search%20landing%20page/How%20People%20Actually%20Search%20Using%20AI%20Tools%20in%202026.png"
+  alt="AI Search Optimization"
+  className="w-full rounded-xl mb-12"
+/>
 
       <section>
         <h2 className="text-3xl font-bold mb-4">What is AI Search?</h2>
