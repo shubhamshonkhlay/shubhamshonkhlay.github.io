@@ -5,7 +5,7 @@ export const personSchema = {
   jobTitle: "SEO Consultant",
   description:
     "SEO Consultant, GEO Specialist, AEO Strategist and AI Search Consultant",
-  url: "https://shubhamshonkhlay.github.io/",
+  url: "https://shubhamshonkhlay-github-io.vercel.app/",
 };
 
 export const articleSchema = {
@@ -22,7 +22,7 @@ export const articleSchema = {
     "@type": "Person",
     name: "Shubham Shonkhlay",
   },
-  mainEntityOfPage: "https://shubhamshonkhlay.github.io/geo",
+  mainEntityOfPage: "https://shubhamshonkhlay-github-io.vercel.app/geo",
 };
 
 export const faqSchema = {
@@ -64,13 +64,13 @@ export const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://shubhamshonkhlay.github.io/",
+      item: "https://shubhamshonkhlay-github-io.vercel.app/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "GEO",
-      item: "https://shubhamshonkhlay.github.io/geo",
+      item: "https://shubhamshonkhlay-github-io.vercel.app/geo",
     },
   ],
 };
