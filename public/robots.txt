@@ -1,0 +1,48 @@
+# =========================
+# GLOBAL CRAWLER ACCESS
+# =========================
+User-agent: *
+Allow: /
+
+# Block technical/system folders (best practice)
+Disallow: /api/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.vercel/
+Disallow: /admin/
+Disallow: /private/
+
+# =========================
+# SEO + AI CRAWLER FRIENDLY
+# =========================
+
+# Allow major search engines explicitly (optional but safe)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI training / citation bots (open access for discoverability)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# =========================
+# SITEMAP (VERY IMPORTANT)
+# =========================
+Sitemap: https://shubhamshonkhlay-github-io.vercel.app/sitemap.xml
