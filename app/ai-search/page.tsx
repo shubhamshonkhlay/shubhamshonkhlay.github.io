@@ -108,7 +108,12 @@ export default function AISearchPage() {
   <h2 className="text-3xl font-bold mb-6">
     Real AI Search Queries People Actually Use
   </h2>
-  <img src="public\images\ai-search landing page\Real AI Search Queries People Actually Use.png" alt="real ai search result" />
+  
+ <img
+  src="/images/ai-search%20landing%20page/Real%20AI%20Search%20Queries%20People%20Actually%20Use.png"
+  alt="Real AI Search Queries People Actually Use"
+  className="w-full rounded-xl my-12"
+/>
 
   <h3 className="text-2xl font-semibold mb-4">
     AI Tool Discovery Queries
