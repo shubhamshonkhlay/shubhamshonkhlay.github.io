@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Shubham Shonkhlay | SEO, GEO & AI Search Consultant",
   description: "Helping businesses grow visibility across Google Search, AI Search, GEO and AEO",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({

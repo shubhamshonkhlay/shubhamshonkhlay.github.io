@@ -1,3 +1,12 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "What Is GEO (Generative Engine Optimization)? | Shubham Shonkhlay",
+  alternates: {
+    canonical: "/geo",
+  },
+};
+
 export const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
