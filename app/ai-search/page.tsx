@@ -210,42 +210,7 @@ export default function AISearchPage() {
 </section>
 
 <section className="mt-16">
-  <h2 className="text-3xl font-bold mb-6">
-    Frequently Asked Questions
-  </h2>
 
-  <div className="space-y-8">
-    <div>
-      <h3 className="text-xl font-semibold">
-        What is AI Search Optimization?
-      </h3>
-
-      <p>
-        AI Search Optimization is the process of structuring content so AI
-        systems can extract and cite it as answers.
-      </p>
-    </div>
-
-    <div>
-      <h3 className="text-xl font-semibold">
-        What is GEO?
-      </h3>
-
-      <p>
-        GEO is optimizing content to appear in AI-generated responses.
-      </p>
-    </div>
-
-    <div>
-      <h3 className="text-xl font-semibold">
-        What is AEO?
-      </h3>
-
-      <p>
-        AEO is optimizing content to become direct answers inside AI systems.
-      </p>
-    </div>
-  </div>
 </section>
 
 <section className="mt-20 bg-slate-50 p-8 rounded-xl">
@@ -651,6 +616,101 @@ export default function AISearchPage() {
     Last Updated: June 2026
   </p>
 </section>
+<section className="mt-20">
+  <h2 className="text-4xl font-bold mb-10">
+    FAQ (AI Overviews Optimized)
+  </h2>
+
+  <div className="space-y-8">
+
+```
+<div className="border rounded-xl p-6">
+  <h3 className="text-xl font-semibold mb-3">
+    What is AI Search Optimization?
+  </h3>
+
+  <p className="text-gray-700">
+    AI Search Optimization is the process of structuring content so AI
+    systems can understand, extract, cite, and present it as answers
+    within AI-generated responses.
+  </p>
+</div>
+
+<div className="border rounded-xl p-6">
+  <h3 className="text-xl font-semibold mb-3">
+    What is GEO?
+  </h3>
+
+  <p className="text-gray-700">
+    GEO (Generative Engine Optimization) is the practice of optimizing
+    content so it appears inside AI-generated answers from platforms
+    like ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews.
+  </p>
+</div>
+
+<div className="border rounded-xl p-6">
+  <h3 className="text-xl font-semibold mb-3">
+    What is AEO?
+  </h3>
+
+  <p className="text-gray-700">
+    AEO (Answer Engine Optimization) focuses on creating content that
+    becomes the direct answer users receive from AI assistants, voice
+    search systems, and answer engines.
+  </p>
+</div>
+
+<div className="border rounded-xl p-6">
+  <h3 className="text-xl font-semibold mb-3">
+    How do AI systems choose content?
+  </h3>
+
+  <p className="text-gray-700">
+    AI systems prioritize content that is structured, clear,
+    authoritative, trustworthy, and easy to extract into direct
+    answers.
+  </p>
+</div>
+```
+
+  </div>
+</section>
+
+<section className="mt-20 bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-2xl p-10">
+
+  <h2 className="text-4xl font-bold mb-6">
+    AI Search is Changing How Visibility Works on the Internet
+  </h2>
+
+  <p className="text-lg text-slate-300 mb-8 max-w-3xl">
+    If your content is not optimized for AI systems, it will struggle to
+    appear in future search experiences. GEO, AEO, and AI Search
+    Optimization are becoming essential for visibility across AI-powered
+    platforms.
+  </p>
+
+  <div className="flex flex-wrap gap-4">
+
+```
+<a
+  href="/geo"
+  className="bg-white text-slate-900 px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition"
+>
+  Explore GEO Strategy Page
+</a>
+
+<a
+  href="/"
+  className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-slate-900 transition"
+>
+  Back to Home Page
+</a>
+```
+
+  </div>
+
+</section>
+
 
       {/* Continue with remaining sections */}
 
