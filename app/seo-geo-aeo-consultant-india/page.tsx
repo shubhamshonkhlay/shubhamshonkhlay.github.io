@@ -198,81 +198,140 @@ export default function SEOPage() {
 
  {/* ABOUT SECTION */}
 
-<section className="py-20 border-t border-gray-200">
+<section className="py-24">
 
-  <div className="max-w-5xl mx-auto">
+  <div className="max-w-6xl mx-auto px-6">
 
-    <h2 className="text-4xl font-bold mb-8">
-      About Shubham Shonkhlay
-    </h2>
+```
+<div className="grid lg:grid-cols-3 gap-10 items-start">
 
-    <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+  {/* LEFT PROFILE CARD */}
 
-      <p>
-        I am a{" "}
-        <Link
-          href="/"
-          className="font-semibold text-black hover:underline"
-        >
-          Digital Marketing & AI Search Strategist
-        </Link>{" "}
-        focused on helping businesses improve visibility across traditional
-        search engines and emerging AI-powered answer platforms.
+  <div className="lg:sticky lg:top-10">
+
+    <div className="rounded-[32px] bg-black text-white p-10">
+
+      <span className="text-sm uppercase tracking-[0.2em] text-gray-400">
+        About
+      </span>
+
+      <h2 className="text-4xl font-black mt-4 mb-4">
+        Shubham Shonkhlay
+      </h2>
+
+      <p className="text-gray-300 text-lg">
+        Digital Marketing & AI Search Strategist
       </p>
 
-      <p>
-        My background combines business development experience with hands-on
-        research, experimentation, and practical implementation of SEO,{" "}
-        <Link
-          href="/geo"
-          className="font-semibold text-black hover:underline"
-        >
-          Generative Engine Optimization (GEO)
-        </Link>
-        , AEO, content strategy, and{" "}
-        <Link
-          href="/ai-search"
-          className="font-semibold text-black hover:underline"
-        >
+      <div className="mt-8 space-y-4">
+
+        <div className="border border-white/10 rounded-2xl p-4">
+          SEO
+        </div>
+
+        <div className="border border-white/10 rounded-2xl p-4">
+          GEO
+        </div>
+
+        <div className="border border-white/10 rounded-2xl p-4">
+          AEO
+        </div>
+
+        <div className="border border-white/10 rounded-2xl p-4">
           AI Search Optimization
-        </Link>
-        .
-      </p>
+        </div>
 
-      <p>
-        I actively study how modern search systems discover, evaluate,
-        rank, and reference information. Through continuous experimentation
-        and industry research, I help businesses adapt to the changing
-        search landscape and build sustainable visibility.
-      </p>
-
-      <p>
-        Unlike traditional agencies, you'll work directly with me
-        throughout the strategy and implementation process.
-      </p>
-
-      <p>
-        My work focuses on helping businesses create search-friendly
-        content, stronger digital authority, improved entity recognition,
-        and greater visibility across both traditional and AI-powered
-        search experiences.
-      </p>
-
-      <p>
-        To learn more about my work, visit the{" "}
-        <Link
-          href="/"
-          className="font-semibold text-black hover:underline"
-        >
-          homepage of Shubham Shonkhlay
-        </Link>
-        .
-      </p>
+      </div>
 
     </div>
+
+  </div>
+
+  {/* RIGHT CONTENT */}
+
+  <div className="lg:col-span-2">
+
+    <div className="bg-white border border-gray-200 rounded-[32px] p-10 shadow-sm">
+
+      <h3 className="text-3xl font-bold mb-8">
+        Helping Businesses Stay Visible in the Future of Search
+      </h3>
+
+      <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
+
+        <p>
+          I am a{" "}
+          <Link
+            href="/"
+            className="font-semibold text-black hover:underline"
+          >
+            Digital Marketing & AI Search Strategist
+          </Link>{" "}
+          focused on helping businesses improve visibility across traditional
+          search engines and emerging AI-powered answer platforms.
+        </p>
+
+        <p>
+          My background combines business development experience with hands-on
+          research, experimentation, and practical implementation of SEO,{" "}
+          <Link
+            href="/geo"
+            className="font-semibold text-black hover:underline"
+          >
+            Generative Engine Optimization (GEO)
+          </Link>
+          , AEO, content strategy, and{" "}
+          <Link
+            href="/ai-search"
+            className="font-semibold text-black hover:underline"
+          >
+            AI Search Optimization
+          </Link>
+          .
+        </p>
+
+        <p>
+          I actively study how modern search systems discover, evaluate,
+          rank, and reference information. Through continuous experimentation
+          and industry research, I help businesses adapt to the changing
+          search landscape and build sustainable visibility.
+        </p>
+
+        <p>
+          Unlike traditional agencies, you'll work directly with me
+          throughout the strategy and implementation process.
+        </p>
+
+        <p>
+          My work focuses on helping businesses create search-friendly
+          content, stronger digital authority, improved entity recognition,
+          and greater visibility across both traditional and AI-powered
+          search experiences.
+        </p>
+
+        <p>
+          To learn more about my work, visit the{" "}
+          <Link
+            href="/"
+            className="font-semibold text-black hover:underline"
+          >
+            homepage of Shubham Shonkhlay
+          </Link>
+          .
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
   </div>
 
 </section>
+
 
 {/* SEO GEO AEO SECTION */}
 
