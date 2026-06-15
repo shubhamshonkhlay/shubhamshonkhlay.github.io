@@ -296,145 +296,27 @@ export default function SEOPage() {
       />
     </div>
 
-    <div className="space-y-8">
+    <div className="grid md:grid-cols-2 gap-6">
 
-      {/* SEO CARD */}
-      <div className="bg-white rounded-3xl p-8 border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-
-        <div className="flex items-center gap-4 mb-6">
-          <div className="w-14 h-14 rounded-2xl bg-blue-100 flex items-center justify-center text-2xl">
-            🔍
-          </div>
-
-          <h3 className="text-2xl font-semibold">
-            Search Engine Optimization (SEO)
-          </h3>
-        </div>
-
-        <p className="text-lg text-gray-700 leading-relaxed">
-          Search Engine Optimization is the process of improving a
-          website's visibility within traditional search engine results.
-        </p>
-
-        <p className="text-lg text-gray-700 leading-relaxed mt-4">
-          SEO focuses on technical performance, content quality,
-          authority, relevance, user experience, and search intent
-          alignment to improve rankings and organic traffic.
-        </p>
-
-      </div>
-
-      {/* GEO CARD */}
-      <div className="bg-gradient-to-r from-purple-50 to-white rounded-3xl p-8 border border-purple-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-
-        <div className="flex items-center gap-4 mb-6">
-          <div className="w-14 h-14 rounded-2xl bg-purple-100 flex items-center justify-center text-2xl">
-            🤖
-          </div>
-
-          <h3 className="text-2xl font-semibold">
-            Generative Engine Optimization (GEO)
-          </h3>
-        </div>
-
-        <p className="text-lg text-gray-700 leading-relaxed">
-          <Link
-            href="/geo"
-            className="font-semibold text-black hover:underline"
-          >
-            Generative Engine Optimization (GEO)
-          </Link>{" "}
-          focuses on improving how AI systems discover, understand,
-          interpret, and reference content when generating answers.
-        </p>
-
-        <p className="text-lg text-gray-700 leading-relaxed mt-4">
-          GEO helps businesses increase the likelihood of being
-          mentioned, cited, and recommended within AI-generated
-          responses.
-        </p>
-
-        <p className="mt-4">
-          <Link
-            href="/geo"
-            className="font-semibold text-black hover:underline"
-          >
-            Learn more about Generative Engine Optimization →
-          </Link>
-        </p>
-
-      </div>
-
-      {/* AEO CARD */}
-      <div className="bg-gradient-to-r from-green-50 to-white rounded-3xl p-8 border border-green-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-
-        <div className="flex items-center gap-4 mb-6">
-          <div className="w-14 h-14 rounded-2xl bg-green-100 flex items-center justify-center text-2xl">
-            💬
-          </div>
-
-          <h3 className="text-2xl font-semibold">
-            Answer Engine Optimization (AEO)
-          </h3>
-        </div>
-
-        <p className="text-lg text-gray-700 leading-relaxed">
-          Answer Engine Optimization focuses on structuring content so
-          search engines and AI assistants can directly use it to answer
-          user questions.
-        </p>
-
-        <p className="text-lg text-gray-700 leading-relaxed mt-4">
-          AEO improves visibility in featured snippets, AI summaries,
-          voice search results, and answer-based search experiences.
-        </p>
-
-      </div>
-
-      {/* AI SEARCH CARD */}
-      <div className="bg-black text-white rounded-3xl p-8 shadow-xl hover:-translate-y-1 transition-all duration-300">
-
-        <div className="flex items-center gap-4 mb-6">
-          <div className="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center text-2xl">
-            🚀
-          </div>
-
-          <h3 className="text-2xl font-semibold">
-            AI Search Optimization
-          </h3>
-        </div>
-
-        <p className="text-lg text-gray-300 leading-relaxed">
-          <Link
-            href="/ai-search"
-            className="font-semibold text-white underline"
-          >
-            AI Search Optimization
-          </Link>{" "}
-          combines SEO, GEO, and AEO strategies to improve
-          discoverability across modern search experiences.
-        </p>
-
-        <p className="text-lg text-gray-300 leading-relaxed mt-4">
-          The objective is not simply to rank but to become a trusted
-          source that search engines and AI systems confidently
-          reference.
-        </p>
-
-        <p className="mt-4">
-          <Link
-            href="/ai-search"
-            className="font-semibold text-white underline"
-          >
-            Learn more about AI Search Optimization →
-          </Link>
-        </p>
-        
-      </div>
-
-    </div>
-
+  <div className="rounded-[32px] border border-gray-200 bg-white p-10">
+    SEO CONTENT
   </div>
+
+  <div className="rounded-[32px] bg-black text-white p-10">
+    GEO CONTENT
+  </div>
+
+  <div className="md:col-span-2 rounded-[32px] bg-gradient-to-r from-slate-50 to-blue-50 p-10">
+    AEO CONTENT
+  </div>
+
+  <div className="md:col-span-2 rounded-[40px] bg-gradient-to-br from-black via-gray-900 to-slate-800 text-white p-14">
+    AI SEARCH CONTENT
+  </div>
+
+</div>
+
+</div>
 </section>
 
 {/* WHO I WORK WITH */}
