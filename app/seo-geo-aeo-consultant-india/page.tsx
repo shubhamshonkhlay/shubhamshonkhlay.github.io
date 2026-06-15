@@ -170,7 +170,7 @@ export default function SEOPage() {
 
 <div className="my-12">
   <Image
-    src="/images/ai-search-seo.webp"
+    src="/images/seo-landing page/SEO, GEO & AI Search Optimization Consultant in India.jfif"
     alt="How AI Search is Changing SEO"
     width={1200}
     height={675}
@@ -334,7 +334,7 @@ export default function SEOPage() {
 
 <div className="mb-12">
   <Image
-    src="/images/seo-geo-aeo-evolution.webp"
+    src="/images/seo-landing page/What Are SEO, GEO & AEO.jfif"
     alt="SEO GEO AEO Evolution"
     width={1200}
     height={675}
@@ -839,7 +839,7 @@ export default function SEOPage() {
 
 <div className="mb-10">
   <Image
-    src="/images/entity-seo-ai-visibility.webp"
+    src="/images/seo-landing page/Why Entity SEO Matters for AI Search.jfif"
     alt="Entity SEO and AI Visibility"
     width={1200}
     height={675}
