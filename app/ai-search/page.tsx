@@ -143,8 +143,8 @@ export default function AISearchPage() {
       </section>
 
       <img
-  src="/images/seo-landing%20page/hero.jfif"
-  alt="SEO GEO AI Search Optimization Consultant in India"
+  src="/images/ai-search%20landing%20page/How%20People%20Actually%20Search%20Using%20AI%20Tools%20in%202026.png"
+  alt="AI Search Optimization"
   className="w-full rounded-xl mb-12"
 />
 

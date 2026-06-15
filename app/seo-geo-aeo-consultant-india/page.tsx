@@ -142,6 +142,12 @@ export default function SEOPage() {
       Gemini, Perplexity & AI Search Platforms
     </h2>
 
+<img
+  src="/images/seo-landing%20page/hero.jfif"
+  alt="SEO GEO AI Search Optimization Consultant in India"
+  className="w-full rounded-xl mb-12"
+/>
+
     <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-700">
       <p>
         Search is evolving.
@@ -170,11 +176,7 @@ export default function SEOPage() {
 
 <div className="my-12">
 
-<img
-  src="/images/seo-landing%20page/hero.jfif"
-  alt="SEO GEO AI Search Optimization Consultant in India"
-  className="w-full rounded-xl mb-12"
-/>
+
 </div>
 
     {/* CTA Box */}
