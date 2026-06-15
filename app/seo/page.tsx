@@ -1,4 +1,3 @@
-```jsx
 export const metadata = {
   title:
     "AI-Powered Digital Marketing, SEO, GEO & AEO Services in India",
@@ -387,4 +386,3 @@ export default function SEOPage() {
     </main>
   );
 }
-```
