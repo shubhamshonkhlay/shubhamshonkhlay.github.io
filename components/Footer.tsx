@@ -16,9 +16,10 @@ export default function Footer() {
           </div>
 
           <div className="flex gap-6 mt-6 md:mt-0">
-            <a href="/seo">SEO</a>
+            <a href="/seo-geo-aeo-consultant-india">SEO</a>
             <a href="/geo">GEO</a>
             <a href="/aeo">AEO</a>
+            <a href="/ai-search">AI Search</a>
             <a href="/blog">Blog</a>
             <a href="/contact">Contact</a>
           </div>
