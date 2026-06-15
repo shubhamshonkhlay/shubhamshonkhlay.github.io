@@ -170,7 +170,7 @@ export default function SEOPage() {
 
 <div className="my-12">
   <Image
-    src="public\images\seo-landing page\hero.jfif"
+    src="/images/seo-landing%20page/hero.jfif"
     alt="How AI Search is Changing SEO"
     width={1200}
     height={675}
