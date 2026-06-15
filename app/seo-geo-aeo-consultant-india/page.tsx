@@ -127,7 +127,7 @@ export default function SEOPage() {
         }}
       />
 
-      <main className="max-w-5xl mx-auto px-6 py-16 text-gray-900">
+      <main className="w-full text-gray-900 overflow-x-hidden">
 
         {/* HERO */}
         <section className="relative overflow-hidden py-24">
