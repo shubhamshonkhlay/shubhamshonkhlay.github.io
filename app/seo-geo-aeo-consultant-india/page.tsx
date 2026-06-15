@@ -492,51 +492,72 @@ export default function SEOPage() {
 
 {/* WHO I WORK WITH */}
 
-<section className="py-20">
+<section className="py-28">
 
-  <div className="max-w-5xl mx-auto">
+  <div className="max-w-7xl mx-auto px-6">
 
-    <h2 className="text-4xl font-bold mb-8">
-      Who I Work With
-    </h2>
+```
+<div className="text-center mb-16">
 
-    <p className="text-lg text-gray-700 mb-10">
-      I work directly with businesses and professionals who want to
-      improve their visibility across Google, AI search engines,
-      and modern answer platforms.
-    </p>
+  <span className="inline-flex px-4 py-2 rounded-full border text-sm font-medium mb-6">
+    Ideal Clients
+  </span>
 
-    <div className="grid md:grid-cols-3 gap-6">
+  <h2 className="text-5xl font-bold mb-6">
+    Who I Help Grow Online
+  </h2>
 
-      {[
-        "Local Businesses",
-        "Service-Based Businesses",
-        "Consultants",
-        "Coaches",
-        "Personal Brands",
-        "SaaS Companies",
-        "Startups",
-        "E-commerce Businesses",
-        "B2B Organizations",
-      ].map((item) => (
-        <div
-          key={item}
-          className="border rounded-2xl p-6 text-center bg-white hover:shadow-md transition"
-        >
-          <p className="font-medium">{item}</p>
-        </div>
-      ))}
+  <p className="max-w-3xl mx-auto text-xl text-gray-600">
+    I partner with businesses, founders, consultants, and brands
+    looking to improve visibility across Google, AI search engines,
+    and modern answer platforms.
+  </p>
 
+</div>
+
+<div className="grid md:grid-cols-3 gap-6">
+
+  {[
+    { icon: "📍", title: "Local Businesses" },
+    { icon: "🏢", title: "Service Businesses" },
+    { icon: "🎯", title: "Consultants" },
+    { icon: "🚀", title: "Coaches" },
+    { icon: "⭐", title: "Personal Brands" },
+    { icon: "💻", title: "SaaS Companies" },
+    { icon: "🌱", title: "Startups" },
+    { icon: "🛒", title: "E-commerce" },
+    { icon: "🤝", title: "B2B Organizations" },
+  ].map((item) => (
+    <div
+      key={item.title}
+      className="group bg-white border rounded-3xl p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-all"
+    >
+      <div className="text-5xl mb-5">
+        {item.icon}
+      </div>
+
+      <h3 className="font-semibold text-lg">
+        {item.title}
+      </h3>
     </div>
+  ))}
 
-    <div className="mt-10 bg-gray-50 rounded-2xl p-6">
-      <p className="text-lg text-gray-700">
-        If your customers search online before making decisions,
-        search visibility matters. The businesses that appear first,
-        get cited, or get recommended often earn the trust and attention
-        before competitors.
-      </p>
-    </div>
+</div>
+
+<div className="mt-16 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-[32px] p-10 text-white">
+
+  <h3 className="text-3xl font-bold mb-4">
+    Visibility Creates Trust
+  </h3>
+
+  <p className="text-lg text-blue-100 max-w-4xl">
+    When customers search online, the businesses that appear,
+    get cited, or receive recommendations often earn trust before
+    competitors even enter the conversation.
+  </p>
+
+</div>
+```
 
   </div>
 
@@ -544,123 +565,116 @@ export default function SEOPage() {
 
 {/* HOW I HELP */}
 
-<section className="py-20 bg-gray-50 rounded-3xl">
+<section className="py-28 bg-slate-950 text-white">
 
-  <div className="max-w-6xl mx-auto px-6">
+  <div className="max-w-7xl mx-auto px-6">
 
-    <h2 className="text-4xl font-bold mb-12">
-      How I Help Businesses Improve Search Visibility
-    </h2>
+```
+<div className="text-center mb-20">
 
-    <div className="grid lg:grid-cols-2 gap-8">
+  <span className="inline-flex px-4 py-2 rounded-full border border-white/20 text-sm mb-6">
+    Services Framework
+  </span>
 
-      {/* SEO */}
+  <h2 className="text-5xl font-bold mb-6">
+    How I Improve Search Visibility
+  </h2>
 
-      <div className="bg-white rounded-3xl p-8 border">
+  <p className="max-w-3xl mx-auto text-xl text-slate-400">
+    Modern search success requires more than rankings. It requires
+    visibility across search engines, AI assistants, answer engines,
+    and recommendation systems.
+  </p>
 
-        <h3 className="text-2xl font-semibold mb-6">
-          SEO Services
-        </h3>
+</div>
 
-        <ul className="space-y-3 text-gray-700">
-          <li>✓ Technical SEO Audits</li>
-          <li>✓ On-Page SEO</li>
-          <li>✓ Keyword Research</li>
-          <li>✓ Content Strategy</li>
-          <li>✓ Internal Linking</li>
-          <li>✓ Site Architecture</li>
-          <li>✓ Search Performance Optimization</li>
-          <li>✓ SEO Content Planning</li>
-        </ul>
+<div className="grid lg:grid-cols-2 gap-8">
 
-      </div>
+  {/* SEO */}
 
-      {/* GEO */}
+  <div className="bg-white/5 border border-white/10 rounded-[32px] p-8">
 
-      <div className="bg-white rounded-3xl p-8 border">
+    <div className="text-5xl mb-6">📈</div>
 
-        <h3 className="text-2xl font-semibold mb-4">
-          GEO Services
-        </h3>
+    <h3 className="text-3xl font-bold mb-6">
+      SEO
+    </h3>
 
-        <p className="text-gray-700 mb-6">
-          Improve your visibility through{" "}
-          <Link
-            href="/geo"
-            className="font-semibold hover:underline"
-          >
-            Generative Engine Optimization (GEO)
-          </Link>{" "}
-          strategies designed for AI-generated search experiences.
-        </p>
+    <ul className="space-y-3 text-slate-300">
+      <li>✓ Technical SEO Audits</li>
+      <li>✓ Keyword Research</li>
+      <li>✓ Content Strategy</li>
+      <li>✓ Internal Linking</li>
+      <li>✓ Site Architecture</li>
+      <li>✓ Search Performance Optimization</li>
+    </ul>
 
-        <ul className="space-y-3 text-gray-700">
-          <li>✓ AI Visibility Audits</li>
-          <li>✓ Entity Optimization</li>
-          <li>✓ Brand Mention Strategies</li>
-          <li>✓ Citation Optimization</li>
-          <li>✓ Authority Building</li>
-          <li>✓ Knowledge Graph Alignment</li>
-          <li>✓ AI-Friendly Content Structures</li>
-        </ul>
+  </div>
 
-      </div>
+  {/* GEO */}
 
-      {/* AEO */}
+  <div className="bg-white/5 border border-white/10 rounded-[32px] p-8">
 
-      <div className="bg-white rounded-3xl p-8 border">
+    <div className="text-5xl mb-6">🤖</div>
 
-        <h3 className="text-2xl font-semibold mb-4">
-          AEO Services
-        </h3>
+    <h3 className="text-3xl font-bold mb-6">
+      GEO
+    </h3>
 
-        <p className="text-gray-700 mb-6">
-          Help search engines and AI assistants identify your content
-          as a trusted answer source.
-        </p>
+    <ul className="space-y-3 text-slate-300">
+      <li>✓ AI Visibility Audits</li>
+      <li>✓ Entity Optimization</li>
+      <li>✓ Brand Mentions</li>
+      <li>✓ Citation Optimization</li>
+      <li>✓ Knowledge Graph Alignment</li>
+      <li>✓ AI-Friendly Content Structures</li>
+    </ul>
 
-        <ul className="space-y-3 text-gray-700">
-          <li>✓ FAQ Development</li>
-          <li>✓ Featured Snippet Optimization</li>
-          <li>✓ Structured Data Strategy</li>
-          <li>✓ Conversational Search Optimization</li>
-          <li>✓ Question-Based Content Architecture</li>
-          <li>✓ Voice Search Readiness</li>
-        </ul>
+  </div>
 
-      </div>
+  {/* AEO */}
 
-      {/* AI SEARCH */}
+  <div className="bg-white/5 border border-white/10 rounded-[32px] p-8">
 
-      <div className="bg-white rounded-3xl p-8 border">
+    <div className="text-5xl mb-6">🎯</div>
 
-        <h3 className="text-2xl font-semibold mb-4">
-          AI Search Visibility Consulting
-        </h3>
+    <h3 className="text-3xl font-bold mb-6">
+      AEO
+    </h3>
 
-        <p className="text-gray-700 mb-6">
-          Prepare your business for the future through{" "}
-          <Link
-            href="/ai-search"
-            className="font-semibold hover:underline"
-          >
-            AI Search Optimization
-          </Link>{" "}
-          and AI visibility strategies.
-        </p>
+    <ul className="space-y-3 text-slate-300">
+      <li>✓ FAQ Optimization</li>
+      <li>✓ Featured Snippets</li>
+      <li>✓ Structured Data</li>
+      <li>✓ Conversational Search</li>
+      <li>✓ Voice Search Readiness</li>
+    </ul>
 
-        <ul className="space-y-3 text-gray-700">
-          <li>✓ ChatGPT Visibility Strategies</li>
-          <li>✓ Gemini Visibility Strategies</li>
-          <li>✓ Perplexity Optimization</li>
-          <li>✓ AI Content Discoverability</li>
-          <li>✓ Search Entity Development</li>
-          <li>✓ AI Search Readiness Assessments</li>
-        </ul>
+  </div>
 
-      </div>
+  {/* AI SEARCH */}
 
-    </div>
+  <div className="bg-gradient-to-br from-blue-600 to-indigo-600 rounded-[32px] p-8">
+
+    <div className="text-5xl mb-6">⚡</div>
+
+    <h3 className="text-3xl font-bold mb-6">
+      AI Search Visibility
+    </h3>
+
+    <ul className="space-y-3 text-blue-100">
+      <li>✓ ChatGPT Visibility</li>
+      <li>✓ Gemini Optimization</li>
+      <li>✓ Perplexity Visibility</li>
+      <li>✓ AI Discoverability</li>
+      <li>✓ Entity Development</li>
+      <li>✓ AI Search Readiness</li>
+    </ul>
+
+  </div>
+
+</div>
+```
 
   </div>
 
@@ -668,63 +682,101 @@ export default function SEOPage() {
 
 {/* CHALLENGES SECTION */}
 
-<section className="py-20">
+<section className="py-28">
 
-  <div className="max-w-5xl mx-auto">
+  <div className="max-w-7xl mx-auto px-6">
 
-    <h2 className="text-4xl font-bold mb-8">
-      Common Challenges Businesses Face in Modern Search
-    </h2>
+```
+<div className="text-center mb-16">
 
-    <p className="text-lg text-gray-700 mb-10">
-      Many businesses invest in websites, content, and digital marketing
-      but still struggle to achieve meaningful visibility.
-    </p>
+  <span className="inline-flex px-4 py-2 rounded-full border text-sm font-medium mb-6">
+    Common Problems
+  </span>
 
-    <div className="grid md:grid-cols-2 gap-5 mb-10">
+  <h2 className="text-5xl font-bold mb-6">
+    Why Many Businesses Struggle
+  </h2>
+
+  <p className="max-w-3xl mx-auto text-xl text-gray-600">
+    Most visibility issues stem from missing authority, weak content
+    strategy, poor entity recognition, or lack of AI search readiness.
+  </p>
+
+</div>
+
+<div className="grid lg:grid-cols-2 gap-8">
+
+  {/* Problems */}
+
+  <div className="bg-red-50 border border-red-100 rounded-[32px] p-10">
+
+    <h3 className="text-2xl font-bold mb-8">
+      Common Challenges
+    </h3>
+
+    <div className="space-y-4">
 
       {[
         "Low Organic Visibility",
         "Declining Search Traffic",
         "Weak Topical Authority",
-        "Limited Brand Recognition",
-        "Poor AI Search Discoverability",
-        "Lack of Content Strategy",
+        "Poor Brand Recognition",
+        "Poor AI Discoverability",
         "Insufficient Trust Signals",
         "Increasing Competition",
       ].map((item) => (
         <div
           key={item}
-          className="flex items-center gap-3 border rounded-xl p-4"
+          className="flex items-center gap-3"
         >
-          <span className="text-xl">⚠️</span>
+          <span>❌</span>
           <span>{item}</span>
         </div>
       ))}
 
     </div>
 
-    <div className="bg-gray-50 rounded-3xl p-8">
+  </div>
 
-      <p className="text-lg text-gray-700 mb-6">
-        As search evolves, businesses need more than rankings alone.
-        They need a visibility strategy that helps search engines and AI
-        systems understand who they are, what they offer, and why they
-        should be trusted.
-      </p>
+  {/* Solutions */}
 
-      <p className="text-lg text-gray-700">
-        A modern search strategy combines SEO, GEO, AEO, content authority,
-        entity optimization, structured information, and AI search
-        visibility techniques to improve discoverability across multiple
-        search environments.
-      </p>
+  <div className="bg-green-50 border border-green-100 rounded-[32px] p-10">
+
+    <h3 className="text-2xl font-bold mb-8">
+      Strategic Solutions
+    </h3>
+
+    <div className="space-y-4">
+
+      {[
+        "SEO & Technical Optimization",
+        "Authority Building",
+        "Entity Development",
+        "Content Strategy",
+        "Structured Data",
+        "AI Search Optimization",
+        "Citation & Trust Signals",
+      ].map((item) => (
+        <div
+          key={item}
+          className="flex items-center gap-3"
+        >
+          <span>✅</span>
+          <span>{item}</span>
+        </div>
+      ))}
 
     </div>
 
   </div>
 
+</div>
+```
+
+  </div>
+
 </section>
+
 
 {/* PROCESS SECTION */}
 
@@ -802,64 +854,99 @@ export default function SEOPage() {
 
 {/* APPROACH SECTION */}
 
-<section className="py-20">
+<section className="py-28">
 
-  <div className="max-w-5xl mx-auto">
+  <div className="max-w-7xl mx-auto px-6">
 
-    <h2 className="text-4xl font-bold mb-8">
-      My Approach to Modern Search Optimization
-    </h2>
+```
+{/* Header */}
 
-    <p className="text-lg text-gray-700 mb-10">
-      Modern search visibility depends on more than rankings. Search
-      engines and AI-powered answer systems evaluate multiple trust,
-      authority, and relevance signals before deciding what content to
-      surface, cite, or recommend.
+<div className="text-center mb-16">
+
+  <span className="inline-flex items-center px-4 py-2 rounded-full border text-sm font-medium mb-6">
+    Visibility Framework
+  </span>
+
+  <h2 className="text-5xl font-bold tracking-tight mb-6">
+    My Approach to
+    <span className="block text-blue-600">
+      Modern Search Optimization
+    </span>
+  </h2>
+
+  <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+    Modern search visibility depends on much more than rankings.
+    Search engines and AI-powered answer systems evaluate trust,
+    authority, expertise, entities, and relevance signals before
+    deciding what content to surface, cite, or recommend.
+  </p>
+
+</div>
+
+{/* Trust Signals Image */}
+
+<img
+  src="/images/seo-landing-page/search-trust-signals.webp"
+  alt="Modern Search Trust Signals"
+  className="max-w-6xl w-full mx-auto rounded-[32px] shadow-2xl mb-16"
+/>
+
+{/* Signal Cards */}
+
+<div className="grid md:grid-cols-2 lg:grid-cols-5 gap-5 mb-16">
+
+  {[
+    { icon: "📝", title: "Content Quality" },
+    { icon: "🏆", title: "Experience" },
+    { icon: "🧠", title: "Expertise" },
+    { icon: "⭐", title: "Authority" },
+    { icon: "🔒", title: "Trust" },
+    { icon: "🔗", title: "Entity Recognition" },
+    { icon: "📊", title: "Structured Data" },
+    { icon: "📣", title: "Brand Mentions" },
+    { icon: "📚", title: "Citation Signals" },
+    { icon: "⚡", title: "User Experience" },
+  ].map((item) => (
+    <div
+      key={item.title}
+      className="group bg-white border rounded-2xl p-5 text-center hover:shadow-lg hover:-translate-y-1 transition-all"
+    >
+      <div className="text-3xl mb-3">
+        {item.icon}
+      </div>
+
+      <p className="font-medium text-gray-800">
+        {item.title}
+      </p>
+    </div>
+  ))}
+
+</div>
+
+{/* Framework Card */}
+
+<div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-[36px] p-10 lg:p-14 text-white">
+
+  <div className="max-w-4xl">
+
+    <h3 className="text-3xl font-bold mb-6">
+      Traditional SEO + GEO + AEO = Modern Search Visibility
+    </h3>
+
+    <p className="text-lg text-slate-300 leading-relaxed mb-8">
+      My approach combines proven SEO principles with GEO and AEO
+      methodologies to create sustainable visibility across search
+      engines, AI assistants, answer engines, and emerging search
+      experiences.
     </p>
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4 mb-10">
+    <div className="border-l-4 border-blue-500 pl-6">
 
-      {[
-        "Content Quality",
-        "Experience",
-        "Expertise",
-        "Authoritativeness",
-        "Trustworthiness",
-        "Entity Recognition",
-        "Structured Information",
-        "Brand Mentions",
-        "Citation Signals",
-        "User Experience",
-      ].map((item) => (
-        <div
-          key={item}
-          className="border rounded-xl p-4 text-center bg-white"
-        >
-          {item}
-        </div>
-      ))}
-
-    </div>
-
-    <div className="bg-gray-50 rounded-3xl p-8">
-
-      <p className="text-lg text-gray-700 mb-6">
-        My approach combines traditional SEO principles with{" "}
-        <Link
-          href="/geo"
-          className="font-semibold hover:underline"
-        >
-          GEO
-        </Link>{" "}
-        and AEO methodologies to create sustainable visibility across
-        both search engines and AI-powered answer systems.
-      </p>
-
-      <p className="text-xl font-semibold">
+      <p className="text-lg text-slate-300 mb-3">
         The objective is simple:
       </p>
 
-      <p className="text-2xl font-bold mt-3">
+      <p className="text-3xl font-bold leading-tight">
         Build digital assets that search engines trust and AI systems understand.
       </p>
 
@@ -867,91 +954,144 @@ export default function SEOPage() {
 
   </div>
 
-</section>
-
-{/* ENTITY SEO SECTION */}
-
-<section className="py-20 bg-gray-50 rounded-3xl">
-
-  <div className="max-w-5xl mx-auto px-6">
-
-    <h2 className="text-4xl font-bold mb-8">
-      Why Entity SEO Matters for AI Search
-    </h2>
-
-<div className="mb-10">
-<img
-  src="/images/seo-landing%20page/Why%20Entity%20SEO%20Matters%20for%20AI%20Search.jfif"
-  alt="Why Entity SEO Matters for AI Search"
-  className="max-w-4xl w-full mx-auto rounded-2xl my-10 shadow-lg"
-/>
-
 </div>
-
-    <p className="text-lg text-gray-700 mb-6">
-      Modern search engines increasingly rely on entities rather than
-      keywords alone.
-    </p>
-
-    <p className="text-lg text-gray-700 mb-6">
-      An entity can be a person, business, product, service,
-      organization, or concept that search engines can clearly
-      identify and understand.
-    </p>
-
-    <p className="text-lg text-gray-700 mb-10">
-      When search engines consistently associate{" "}
-      <Link
-        href="/"
-        className="font-semibold hover:underline"
-      >
-        Shubham Shonkhlay
-      </Link>{" "}
-      with topics such as:
-    </p>
-
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
-
-      {[
-        "Search Engine Optimization (SEO)",
-        "Generative Engine Optimization (GEO)",
-        "Answer Engine Optimization (AEO)",
-        "AI Search Visibility",
-        "Content Strategy",
-        "Digital Marketing",
-      ].map((item) => (
-        <div
-          key={item}
-          className="bg-white border rounded-xl p-5"
-        >
-          {item}
-        </div>
-      ))}
-
-    </div>
-
-    <div className="bg-white border rounded-3xl p-8">
-
-      <p className="text-lg text-gray-700 mb-6">
-        Search engines become more confident in understanding the
-        expertise behind the content.
-      </p>
-
-      <p className="text-lg text-gray-700 mb-6">
-        Entity SEO helps create stronger relationships between expertise,
-        services, content, and digital presence.
-      </p>
-
-      <p className="text-xl font-semibold">
-        This strengthens discoverability across both search engines and
-        AI-powered answer systems.
-      </p>
-
-    </div>
+```
 
   </div>
 
 </section>
+
+
+{/* ENTITY SEO SECTION */}
+
+<section className="py-28 bg-gradient-to-b from-gray-50 to-white rounded-[40px]">
+
+  <div className="max-w-7xl mx-auto px-6">
+
+```
+{/* Header */}
+
+<div className="text-center mb-12">
+
+  <span className="inline-flex items-center px-4 py-2 rounded-full border text-sm font-medium mb-6">
+    Entity SEO
+  </span>
+
+  <h2 className="text-5xl font-bold tracking-tight mb-6">
+    Why Entity SEO Matters
+    <span className="block text-blue-600">
+      For AI Search
+    </span>
+  </h2>
+
+  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+    AI search engines rely on entities and relationships to understand
+    expertise, authority, and relevance across the web.
+  </p>
+
+</div>
+
+{/* KEEP IMAGE IN SAME POSITION */}
+
+<div className="mb-16">
+
+  <img
+    src="/images/seo-landing%20page/Why%20Entity%20SEO%20Matters%20for%20AI%20Search.jfif"
+    alt="Why Entity SEO Matters for AI Search"
+    className="max-w-5xl w-full mx-auto rounded-[32px] shadow-2xl"
+  />
+
+</div>
+
+{/* Content */}
+
+<div className="max-w-4xl mx-auto text-center mb-16">
+
+  <p className="text-lg text-gray-700 mb-6">
+    Modern search engines increasingly rely on entities rather than
+    keywords alone.
+  </p>
+
+  <p className="text-lg text-gray-700">
+    An entity can be a person, business, service, organization,
+    product, or concept that search engines can clearly identify,
+    categorize, and connect to other information.
+  </p>
+
+</div>
+
+{/* Topic Associations */}
+
+<div className="bg-slate-900 rounded-[36px] p-10 text-white mb-16">
+
+  <h3 className="text-3xl font-bold text-center mb-6">
+    Building Strong Topic Associations
+  </h3>
+
+  <p className="text-slate-300 text-center max-w-3xl mx-auto mb-10">
+    When search engines consistently associate
+    <span className="font-semibold text-white">
+      {" "}Shubham Shonkhlay{" "}
+    </span>
+    with specific topics, confidence in expertise and authority grows.
+  </p>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+
+    {[
+      "Search Engine Optimization (SEO)",
+      "Generative Engine Optimization (GEO)",
+      "Answer Engine Optimization (AEO)",
+      "AI Search Visibility",
+      "Content Strategy",
+      "Digital Marketing",
+    ].map((item) => (
+      <div
+        key={item}
+        className="bg-white/5 border border-white/10 rounded-2xl p-5 text-center backdrop-blur"
+      >
+        {item}
+      </div>
+    ))}
+
+  </div>
+
+</div>
+
+{/* Conclusion Card */}
+
+<div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-[36px] p-10 text-white">
+
+  <h3 className="text-3xl font-bold mb-6">
+    Why Entity SEO Is Important
+  </h3>
+
+  <div className="space-y-5 text-lg text-blue-100">
+
+    <p>
+      Search engines become more confident in understanding the
+      expertise behind your content.
+    </p>
+
+    <p>
+      Entity SEO creates stronger relationships between your brand,
+      services, content, expertise, and digital presence.
+    </p>
+
+    <p className="text-2xl font-bold text-white pt-2">
+      Strong entities improve discoverability across both search
+      engines and AI-powered answer systems.
+    </p>
+
+  </div>
+
+</div>
+```
+
+  </div>
+
+</section>
+
 
 {/* AI SEARCH DISCOVERY SECTION */}
 
@@ -1109,54 +1249,136 @@ export default function SEOPage() {
 
 {/* WHY SEO ALONE IS NOT ENOUGH */}
 
-<section className="py-20 bg-gray-50 rounded-3xl">
+<section className="py-28 relative overflow-hidden">
 
-  <div className="max-w-5xl mx-auto px-6">
+  <div className="max-w-7xl mx-auto px-6">
 
-    <h2 className="text-4xl font-bold mb-8">
-      Why SEO Alone Is No Longer Enough
-    </h2>
+```
+{/* Header */}
 
-    <p className="text-lg text-gray-700 mb-10">
-      Users increasingly ask questions directly to AI platforms instead
-      of browsing multiple websites.
+<div className="text-center mb-16">
+
+  <span className="inline-flex items-center px-4 py-2 rounded-full border text-sm font-medium mb-6">
+    Search Behavior Is Changing
+  </span>
+
+  <h2 className="text-5xl lg:text-6xl font-bold tracking-tight mb-6">
+    Why Traditional SEO
+    <span className="block text-blue-600">
+      Is No Longer Enough
+    </span>
+  </h2>
+
+  <p className="max-w-3xl mx-auto text-xl text-gray-600">
+    Searchers are increasingly bypassing search result pages and
+    asking AI assistants directly for answers, recommendations,
+    comparisons, and expert opinions.
+  </p>
+
+</div>
+
+{/* AI Questions */}
+
+<div className="bg-slate-900 rounded-[36px] p-10 lg:p-14 text-white mb-16">
+
+  <div className="flex items-center gap-3 mb-8">
+    <div className="w-3 h-3 rounded-full bg-green-400" />
+    <h3 className="text-2xl font-bold">
+      Questions People Ask AI Platforms
+    </h3>
+  </div>
+
+  <div className="grid md:grid-cols-2 gap-4">
+
+    {[
+      "Who is the best SEO consultant in India?",
+      "What is Generative Engine Optimization?",
+      "How can I improve AI search visibility?",
+      "What is the difference between SEO and GEO?",
+      "How do businesses appear in ChatGPT responses?",
+      "What companies are leading AI search optimization?"
+    ].map((question) => (
+      <div
+        key={question}
+        className="bg-white/5 border border-white/10 rounded-2xl p-5 backdrop-blur"
+      >
+        <span className="text-blue-400 mr-2">→</span>
+        {question}
+      </div>
+    ))}
+
+  </div>
+
+</div>
+
+{/* Three Pillars */}
+
+<div className="grid lg:grid-cols-3 gap-8 mb-16">
+
+  <div className="bg-white border rounded-3xl p-8 hover:shadow-xl transition">
+
+    <div className="text-5xl mb-5">🏆</div>
+
+    <h3 className="text-2xl font-semibold mb-4">
+      Authority
+    </h3>
+
+    <p className="text-gray-600">
+      AI systems favor trusted sources with strong expertise,
+      industry recognition, and topical authority.
     </p>
 
-    <div className="grid md:grid-cols-2 gap-5 mb-12">
+  </div>
 
-      {[
-        "Who is the best SEO consultant in India?",
-        "What is Generative Engine Optimization?",
-        "How can I improve AI search visibility?",
-        "What is the difference between SEO and GEO?",
-        "How do businesses appear in ChatGPT responses?",
-      ].map((question) => (
-        <div
-          key={question}
-          className="bg-white border rounded-2xl p-5"
-        >
-          <p className="font-medium">{question}</p>
-        </div>
-      ))}
+  <div className="bg-white border rounded-3xl p-8 hover:shadow-xl transition">
 
-    </div>
+    <div className="text-5xl mb-5">🧠</div>
 
-    <div className="bg-white rounded-3xl border p-8">
+    <h3 className="text-2xl font-semibold mb-4">
+      Entity Recognition
+    </h3>
 
-      <p className="text-lg text-gray-700 mb-6">
-        These systems often generate answers using trusted sources,
-        authoritative content, recognized entities, structured
-        information, and topical expertise.
-      </p>
+    <p className="text-gray-600">
+      Brands, people, products, and organizations need clear
+      entity signals to improve AI discoverability.
+    </p>
 
-      <p className="text-lg text-gray-700">
-        Businesses that adapt to this shift early have an opportunity
-        to improve discoverability across emerging search channels and
-        increase their chances of being cited, referenced, and
-        recommended.
-      </p>
+  </div>
 
-    </div>
+  <div className="bg-white border rounded-3xl p-8 hover:shadow-xl transition">
+
+    <div className="text-5xl mb-5">📊</div>
+
+    <h3 className="text-2xl font-semibold mb-4">
+      Structured Knowledge
+    </h3>
+
+    <p className="text-gray-600">
+      AI platforms rely on structured information, citations,
+      semantic relevance, and contextual understanding.
+    </p>
+
+  </div>
+
+</div>
+
+{/* Opportunity Card */}
+
+<div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-[36px] p-10 text-white">
+
+  <h3 className="text-3xl font-bold mb-5">
+    Early Adopters Gain Visibility Advantages
+  </h3>
+
+  <p className="text-lg text-blue-100 max-w-4xl leading-relaxed">
+    Organizations that combine SEO, GEO, AEO, entity optimization,
+    and AI Search strategies today position themselves to earn
+    citations, recommendations, and visibility across emerging AI
+    search experiences.
+  </p>
+
+</div>
+```
 
   </div>
 
@@ -1164,47 +1386,63 @@ export default function SEOPage() {
 
 {/* INDUSTRIES SECTION */}
 
-<section className="py-20">
+<section className="py-28">
 
-  <div className="max-w-5xl mx-auto">
+  <div className="max-w-7xl mx-auto px-6">
 
-    <h2 className="text-4xl font-bold mb-8">
-      Industries I Work With
-    </h2>
+```
+<div className="text-center mb-16">
 
-    <p className="text-lg text-gray-700 mb-10">
-      Every industry requires a tailored SEO, GEO, and AEO strategy
-      based on competition, audience behavior, search intent, and
-      business objectives.
-    </p>
+  <span className="inline-flex items-center px-4 py-2 rounded-full border text-sm font-medium mb-6">
+    Industries Served
+  </span>
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-5">
+  <h2 className="text-5xl font-bold mb-6">
+    Industries I Help Grow
+  </h2>
 
-      {[
-        "Professional Services",
-        "Consulting",
-        "Marketing & Advertising",
-        "SaaS & Technology",
-        "E-commerce",
-        "Education",
-        "Healthcare",
-        "Local Businesses",
-        "Personal Brands",
-        "B2B Organizations",
-      ].map((industry) => (
-        <div
-          key={industry}
-          className="border rounded-2xl p-5 text-center bg-white hover:shadow-md transition"
-        >
-          <p>{industry}</p>
-        </div>
-      ))}
+  <p className="max-w-3xl mx-auto text-xl text-gray-600">
+    Every industry has unique search behavior, competition levels,
+    customer journeys, and AI visibility challenges.
+  </p>
 
+</div>
+
+<div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+
+  {[
+    { icon: "💼", name: "Professional Services" },
+    { icon: "🎯", name: "Consulting" },
+    { icon: "📣", name: "Marketing" },
+    { icon: "💻", name: "SaaS & Technology" },
+    { icon: "🛒", name: "E-commerce" },
+    { icon: "🎓", name: "Education" },
+    { icon: "🏥", name: "Healthcare" },
+    { icon: "📍", name: "Local Businesses" },
+    { icon: "⭐", name: "Personal Brands" },
+    { icon: "🏢", name: "B2B Organizations" }
+  ].map((industry) => (
+    <div
+      key={industry.name}
+      className="group bg-white border rounded-3xl p-6 text-center hover:shadow-xl hover:-translate-y-1 transition-all"
+    >
+      <div className="text-4xl mb-4">
+        {industry.icon}
+      </div>
+
+      <p className="font-medium">
+        {industry.name}
+      </p>
     </div>
+  ))}
+
+</div>
+```
 
   </div>
 
 </section>
+
 
 {/* FUTURE OF SEARCH */}
 
@@ -1368,7 +1606,7 @@ export default function SEOPage() {
   </div>
 
 </div>
-```
+
 
   </div>
 
