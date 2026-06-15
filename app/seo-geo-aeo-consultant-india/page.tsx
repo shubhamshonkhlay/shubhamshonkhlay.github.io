@@ -276,29 +276,40 @@ export default function SEOPage() {
 
 {/* SEO GEO AEO SECTION */}
 
-<section className="py-20 bg-gray-50 rounded-3xl mt-10">
-
+<section className="py-24 bg-gradient-to-b from-gray-50 to-white rounded-[40px] mt-10">
   <div className="max-w-5xl mx-auto px-6">
 
-    <h2 className="text-4xl font-bold mb-12">
+    <h2 className="text-5xl font-bold text-center mb-6">
       What Are SEO, GEO & AEO?
     </h2>
 
-<div className="mb-12">
-<img
-  src="/images/seo-landing%20page/What%20Are%20SEO,%20GEO%20&%20AEO.jfif"
-  alt="What Are SEO GEO and AEO"
-  className="max-w-4xl w-full mx-auto rounded-2xl my-10 shadow-lg"
-/>
+    <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-12">
+      Understanding the relationship between SEO, GEO, AEO and AI Search Optimization.
+    </p>
 
-</div>
+    {/* IMAGE - POSITION UNCHANGED */}
+    <div className="mb-12">
+      <img
+        src="/images/seo-landing%20page/What%20Are%20SEO,%20GEO%20&%20AEO.jfif"
+        alt="What Are SEO GEO and AEO"
+        className="max-w-4xl w-full mx-auto rounded-2xl my-10 shadow-lg"
+      />
+    </div>
 
-    <div className="space-y-12">
+    <div className="space-y-8">
 
-      <div>
-        <h3 className="text-2xl font-semibold mb-4">
-          Search Engine Optimization (SEO)
-        </h3>
+      {/* SEO CARD */}
+      <div className="bg-white rounded-3xl p-8 border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+
+        <div className="flex items-center gap-4 mb-6">
+          <div className="w-14 h-14 rounded-2xl bg-blue-100 flex items-center justify-center text-2xl">
+            🔍
+          </div>
+
+          <h3 className="text-2xl font-semibold">
+            Search Engine Optimization (SEO)
+          </h3>
+        </div>
 
         <p className="text-lg text-gray-700 leading-relaxed">
           Search Engine Optimization is the process of improving a
@@ -310,12 +321,21 @@ export default function SEOPage() {
           authority, relevance, user experience, and search intent
           alignment to improve rankings and organic traffic.
         </p>
+
       </div>
 
-      <div>
-        <h3 className="text-2xl font-semibold mb-4">
-          Generative Engine Optimization (GEO)
-        </h3>
+      {/* GEO CARD */}
+      <div className="bg-gradient-to-r from-purple-50 to-white rounded-3xl p-8 border border-purple-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+
+        <div className="flex items-center gap-4 mb-6">
+          <div className="w-14 h-14 rounded-2xl bg-purple-100 flex items-center justify-center text-2xl">
+            🤖
+          </div>
+
+          <h3 className="text-2xl font-semibold">
+            Generative Engine Optimization (GEO)
+          </h3>
+        </div>
 
         <p className="text-lg text-gray-700 leading-relaxed">
           <Link
@@ -342,12 +362,21 @@ export default function SEOPage() {
             Learn more about Generative Engine Optimization →
           </Link>
         </p>
+
       </div>
 
-      <div>
-        <h3 className="text-2xl font-semibold mb-4">
-          Answer Engine Optimization (AEO)
-        </h3>
+      {/* AEO CARD */}
+      <div className="bg-gradient-to-r from-green-50 to-white rounded-3xl p-8 border border-green-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+
+        <div className="flex items-center gap-4 mb-6">
+          <div className="w-14 h-14 rounded-2xl bg-green-100 flex items-center justify-center text-2xl">
+            💬
+          </div>
+
+          <h3 className="text-2xl font-semibold">
+            Answer Engine Optimization (AEO)
+          </h3>
+        </div>
 
         <p className="text-lg text-gray-700 leading-relaxed">
           Answer Engine Optimization focuses on structuring content so
@@ -359,17 +388,26 @@ export default function SEOPage() {
           AEO improves visibility in featured snippets, AI summaries,
           voice search results, and answer-based search experiences.
         </p>
+
       </div>
 
-      <div>
-        <h3 className="text-2xl font-semibold mb-4">
-          AI Search Optimization
-        </h3>
+      {/* AI SEARCH CARD */}
+      <div className="bg-black text-white rounded-3xl p-8 shadow-xl hover:-translate-y-1 transition-all duration-300">
 
-        <p className="text-lg text-gray-700 leading-relaxed">
+        <div className="flex items-center gap-4 mb-6">
+          <div className="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center text-2xl">
+            🚀
+          </div>
+
+          <h3 className="text-2xl font-semibold">
+            AI Search Optimization
+          </h3>
+        </div>
+
+        <p className="text-lg text-gray-300 leading-relaxed">
           <Link
             href="/ai-search"
-            className="font-semibold text-black hover:underline"
+            className="font-semibold text-white underline"
           >
             AI Search Optimization
           </Link>{" "}
@@ -377,7 +415,7 @@ export default function SEOPage() {
           discoverability across modern search experiences.
         </p>
 
-        <p className="text-lg text-gray-700 leading-relaxed mt-4">
+        <p className="text-lg text-gray-300 leading-relaxed mt-4">
           The objective is not simply to rank but to become a trusted
           source that search engines and AI systems confidently
           reference.
@@ -386,17 +424,17 @@ export default function SEOPage() {
         <p className="mt-4">
           <Link
             href="/ai-search"
-            className="font-semibold text-black hover:underline"
+            className="font-semibold text-white underline"
           >
             Learn more about AI Search Optimization →
           </Link>
         </p>
+        
       </div>
 
     </div>
 
   </div>
-
 </section>
 
 {/* WHO I WORK WITH */}
