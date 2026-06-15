@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -136,11 +137,6 @@ export default function SEOPage() {
       SEO, GEO & AI Search Optimization Consultant in India
     </h1>
 
-    <img 
-    src="public/images/seo-landing page/SEO, GEO & AI Search Optimization Consultant in India.jfif" 
-    alt=" AI Search Optimization Consultant in India "/>
-    className="w-full rounded-xl mb-12"
-
     <h2 className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-8">
       Helping Businesses Improve Visibility Across Google, ChatGPT,
       Gemini, Perplexity & AI Search Platforms
@@ -171,6 +167,17 @@ export default function SEOPage() {
         strategies designed for the future of search.
       </p>
     </div>
+
+<div className="my-12">
+  <Image
+    src="/images/ai-search-seo.webp"
+    alt="How AI Search is Changing SEO"
+    width={1200}
+    height={675}
+    className="rounded-3xl shadow-lg w-full h-auto"
+    priority
+  />
+</div>
 
     {/* CTA Box */}
 
@@ -324,6 +331,16 @@ export default function SEOPage() {
     <h2 className="text-4xl font-bold mb-12">
       What Are SEO, GEO & AEO?
     </h2>
+
+<div className="mb-12">
+  <Image
+    src="/images/seo-geo-aeo-evolution.webp"
+    alt="SEO GEO AEO Evolution"
+    width={1200}
+    height={675}
+    className="rounded-3xl shadow-lg w-full h-auto"
+  />
+</div>
 
     <div className="space-y-12">
 
@@ -819,6 +836,16 @@ export default function SEOPage() {
     <h2 className="text-4xl font-bold mb-8">
       Why Entity SEO Matters for AI Search
     </h2>
+
+<div className="mb-10">
+  <Image
+    src="/images/entity-seo-ai-visibility.webp"
+    alt="Entity SEO and AI Visibility"
+    width={1200}
+    height={675}
+    className="rounded-3xl shadow-lg w-full h-auto"
+  />
+</div>
 
     <p className="text-lg text-gray-700 mb-6">
       Modern search engines increasingly rely on entities rather than
