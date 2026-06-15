@@ -955,75 +955,151 @@ export default function SEOPage() {
 
 {/* AI SEARCH DISCOVERY SECTION */}
 
-<section className="py-20">
+<section className="py-24 relative overflow-hidden">
 
-  <div className="max-w-5xl mx-auto">
+  {/* Background Glow */}
+  <div className="absolute inset-0 -z-10">
+    <div className="absolute top-20 left-20 w-72 h-72 bg-blue-500/10 blur-[120px]" />
+    <div className="absolute bottom-20 right-20 w-72 h-72 bg-purple-500/10 blur-[120px]" />
+  </div>
 
-    <h2 className="text-4xl font-bold mb-8">
-      How AI Search Engines Discover and Reference Content
-    </h2>
+  <div className="max-w-7xl mx-auto px-6">
 
-    <p className="text-lg text-gray-700 mb-6">
-      AI-powered search systems such as ChatGPT, Gemini, Perplexity,
-      Microsoft Copilot, and Google AI Overviews evaluate information
-      differently than traditional search engines.
-    </p>
+    <div className="text-center mb-16">
 
-    <p className="text-lg text-gray-700 mb-10">
-      Instead of relying solely on rankings, these systems analyze
-      expertise, authority, trust, and content quality to determine
-      which sources should be surfaced, cited, or referenced within
-      generated responses.
-    </p>
+      <span className="inline-flex items-center px-4 py-2 rounded-full border text-sm font-medium mb-6">
+        AI Search Visibility
+      </span>
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
+      <h2 className="text-5xl font-bold tracking-tight mb-6">
+        How AI Search Engines Decide
+        <span className="block text-blue-600">
+          What Content Gets Referenced
+        </span>
+      </h2>
 
-      {[
-        "Content Depth",
-        "Expertise Signals",
-        "Website Trustworthiness",
-        "Structured Information",
-        "Citation Signals",
-        "Brand Mentions",
-        "Entity Recognition",
-        "User Experience",
-        "Content Freshness",
-      ].map((item) => (
-        <div
-          key={item}
-          className="border rounded-2xl p-5 bg-white hover:shadow-md transition"
-        >
-          <p className="font-medium">{item}</p>
-        </div>
-      ))}
+      <p className="max-w-3xl mx-auto text-lg text-gray-600">
+        Modern AI systems don't simply rank pages. They evaluate trust,
+        expertise, authority, structured information, and brand signals
+        before surfacing content in generated answers.
+      </p>
 
     </div>
 
-    <div className="bg-gray-50 rounded-3xl p-8">
+    {/* Process Flow */}
 
-      <p className="text-lg text-gray-700 mb-6">
-        Although no platform guarantees citations or recommendations,
-        authoritative content with strong expertise signals is more
-        likely to be referenced.
-      </p>
+    <div className="grid lg:grid-cols-3 gap-8 mb-16">
 
-      <p className="text-lg text-gray-700">
-        This is why{" "}
-        <Link
-          href="/geo"
-          className="font-semibold hover:underline"
-        >
-          Generative Engine Optimization (GEO)
-        </Link>{" "}
-        and{" "}
-        <Link
-          href="/ai-search"
-          className="font-semibold hover:underline"
-        >
-          AI Search Optimization
-        </Link>{" "}
-        are becoming increasingly important alongside traditional SEO.
-      </p>
+      <div className="bg-white border rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all">
+        <div className="w-14 h-14 rounded-2xl bg-blue-100 flex items-center justify-center text-2xl mb-5">
+          📚
+        </div>
+
+        <h3 className="text-xl font-semibold mb-3">
+          Content Analysis
+        </h3>
+
+        <p className="text-gray-600">
+          AI evaluates depth, accuracy, comprehensiveness, and topical
+          coverage to understand subject expertise.
+        </p>
+      </div>
+
+      <div className="bg-white border rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all">
+        <div className="w-14 h-14 rounded-2xl bg-purple-100 flex items-center justify-center text-2xl mb-5">
+          🧠
+        </div>
+
+        <h3 className="text-xl font-semibold mb-3">
+          Entity Understanding
+        </h3>
+
+        <p className="text-gray-600">
+          Brands, people, organizations, and topics are connected through
+          semantic relationships and knowledge graphs.
+        </p>
+      </div>
+
+      <div className="bg-white border rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all">
+        <div className="w-14 h-14 rounded-2xl bg-green-100 flex items-center justify-center text-2xl mb-5">
+          🔗
+        </div>
+
+        <h3 className="text-xl font-semibold mb-3">
+          Citation Selection
+        </h3>
+
+        <p className="text-gray-600">
+          Sources with stronger trust and authority signals are more
+          likely to appear in AI-generated responses.
+        </p>
+      </div>
+
+    </div>
+
+    {/* Ranking Factors */}
+
+    <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-[32px] p-10 text-white">
+
+      <div className="flex items-center gap-3 mb-8">
+        <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+        <h3 className="text-2xl font-bold">
+          Signals AI Systems Commonly Evaluate
+        </h3>
+      </div>
+
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+        {[
+          "Content Depth",
+          "Expertise Signals",
+          "Website Authority",
+          "Structured Data",
+          "Citation Potential",
+          "Brand Mentions",
+          "Entity Recognition",
+          "User Experience",
+          "Content Freshness",
+        ].map((item) => (
+          <div
+            key={item}
+            className="bg-white/5 border border-white/10 rounded-2xl p-5 backdrop-blur hover:bg-white/10 transition"
+          >
+            <span className="text-green-400 mr-2">✓</span>
+            {item}
+          </div>
+        ))}
+
+      </div>
+
+      <div className="mt-10 border-t border-white/10 pt-8">
+
+        <p className="text-slate-300 leading-relaxed">
+          No AI platform guarantees citations or recommendations.
+          However, content demonstrating strong expertise, authority,
+          trustworthiness, and entity relevance is significantly more
+          likely to be referenced.
+        </p>
+
+        <div className="mt-6 flex flex-wrap gap-4">
+
+          <Link
+            href="/geo"
+            className="inline-flex items-center px-5 py-3 rounded-xl bg-white text-slate-900 font-medium hover:bg-slate-100 transition"
+          >
+            Learn GEO →
+          </Link>
+
+          <Link
+            href="/ai-search"
+            className="inline-flex items-center px-5 py-3 rounded-xl border border-white/20 hover:bg-white/10 transition"
+          >
+            Explore AI Search Optimization
+          </Link>
+
+        </div>
+
+      </div>
 
     </div>
 
