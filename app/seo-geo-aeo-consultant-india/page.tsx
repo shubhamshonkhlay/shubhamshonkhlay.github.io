@@ -145,7 +145,7 @@ export default function SEOPage() {
 <img
   src="/images/seo-landing%20page/hero.jfif"
   alt="SEO GEO AI Search Optimization Consultant in India"
-  className="w-full rounded-xl mb-12"
+  className="w-full max-w-4xl mx-auto rounded-xl mb-12 shadow-lg"
 />
 
     <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-700">
@@ -333,13 +333,12 @@ export default function SEOPage() {
     </h2>
 
 <div className="mb-12">
-  <Image
-    src="/images/seo-landing page/What Are SEO, GEO & AEO.jfif"
-    alt="SEO GEO AEO Evolution"
-    width={1200}
-    height={675}
-    className="rounded-3xl shadow-lg w-full h-auto"
-  />
+<img
+  src="/images/seo-landing%20page/What%20Are%20SEO,%20GEO%20&%20AEO.jfif"
+  alt="What Are SEO GEO and AEO"
+  className="max-w-4xl w-full mx-auto rounded-2xl my-10 shadow-lg"
+/>
+
 </div>
 
     <div className="space-y-12">
@@ -838,13 +837,12 @@ export default function SEOPage() {
     </h2>
 
 <div className="mb-10">
-  <Image
-    src="/images/seo-landing page/Why Entity SEO Matters for AI Search.jfif"
-    alt="Entity SEO and AI Visibility"
-    width={1200}
-    height={675}
-    className="rounded-3xl shadow-lg w-full h-auto"
-  />
+<img
+  src="/images/seo-landing%20page/Why%20Entity%20SEO%20Matters%20for%20AI%20Search.jfif"
+  alt="Why Entity SEO Matters for AI Search"
+  className="max-w-4xl w-full mx-auto rounded-2xl my-10 shadow-lg"
+/>
+
 </div>
 
     <p className="text-lg text-gray-700 mb-6">
