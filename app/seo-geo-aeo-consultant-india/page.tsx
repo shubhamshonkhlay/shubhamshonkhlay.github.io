@@ -202,7 +202,7 @@ export default function SEOPage() {
 
   <div className="max-w-6xl mx-auto px-6">
 
-```
+
 <div className="grid lg:grid-cols-3 gap-10 items-start">
 
   {/* LEFT PROFILE CARD */}
@@ -496,7 +496,7 @@ export default function SEOPage() {
 
   <div className="max-w-7xl mx-auto px-6">
 
-```
+
 <div className="text-center mb-16">
 
   <span className="inline-flex px-4 py-2 rounded-full border text-sm font-medium mb-6">
@@ -557,7 +557,7 @@ export default function SEOPage() {
   </p>
 
 </div>
-```
+
 
   </div>
 
@@ -569,7 +569,7 @@ export default function SEOPage() {
 
   <div className="max-w-7xl mx-auto px-6">
 
-```
+
 <div className="text-center mb-20">
 
   <span className="inline-flex px-4 py-2 rounded-full border border-white/20 text-sm mb-6">
@@ -674,7 +674,7 @@ export default function SEOPage() {
   </div>
 
 </div>
-```
+
 
   </div>
 
@@ -686,7 +686,7 @@ export default function SEOPage() {
 
   <div className="max-w-7xl mx-auto px-6">
 
-```
+
 <div className="text-center mb-16">
 
   <span className="inline-flex px-4 py-2 rounded-full border text-sm font-medium mb-6">
@@ -771,7 +771,7 @@ export default function SEOPage() {
   </div>
 
 </div>
-```
+
 
   </div>
 
@@ -858,7 +858,7 @@ export default function SEOPage() {
 
   <div className="max-w-7xl mx-auto px-6">
 
-```
+
 {/* Header */}
 
 <div className="text-center mb-16">
@@ -955,7 +955,7 @@ export default function SEOPage() {
   </div>
 
 </div>
-```
+
 
   </div>
 
@@ -968,7 +968,7 @@ export default function SEOPage() {
 
   <div className="max-w-7xl mx-auto px-6">
 
-```
+
 {/* Header */}
 
 <div className="text-center mb-12">
@@ -1086,7 +1086,7 @@ export default function SEOPage() {
   </div>
 
 </div>
-```
+
 
   </div>
 
@@ -1253,7 +1253,7 @@ export default function SEOPage() {
 
   <div className="max-w-7xl mx-auto px-6">
 
-```
+
 {/* Header */}
 
 <div className="text-center mb-16">
@@ -1378,7 +1378,7 @@ export default function SEOPage() {
   </p>
 
 </div>
-```
+
 
   </div>
 
@@ -1390,7 +1390,7 @@ export default function SEOPage() {
 
   <div className="max-w-7xl mx-auto px-6">
 
-```
+
 <div className="text-center mb-16">
 
   <span className="inline-flex items-center px-4 py-2 rounded-full border text-sm font-medium mb-6">
@@ -1437,7 +1437,7 @@ export default function SEOPage() {
   ))}
 
 </div>
-```
+
 
   </div>
 
@@ -1457,7 +1457,7 @@ export default function SEOPage() {
 
   <div className="max-w-7xl mx-auto px-6">
 
-```
+
 {/* Header */}
 
 <div className="text-center mb-20">
