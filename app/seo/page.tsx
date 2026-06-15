@@ -136,6 +136,11 @@ export default function SEOPage() {
       SEO, GEO & AI Search Optimization Consultant in India
     </h1>
 
+    <img 
+    src="public/images/seo-landing page/SEO, GEO & AI Search Optimization Consultant in India.jfif" 
+    alt=" AI Search Optimization Consultant in India "/>
+    className="w-full rounded-xl mb-12"
+
     <h2 className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-8">
       Helping Businesses Improve Visibility Across Google, ChatGPT,
       Gemini, Perplexity & AI Search Platforms
