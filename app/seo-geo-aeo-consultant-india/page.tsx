@@ -170,11 +170,11 @@ export default function SEOPage() {
 
 <div className="my-12">
 
-  <Image
-    src="/images/seo-landing%20page/hero.jfif"
-    alt="How AI Search is Changing SEO"
-    className="rounded-3xl shadow-lg w-full h-auto"
-  />
+<img
+  src="/images/seo-landing%20page/hero.jfif"
+  alt="SEO GEO AI Search Optimization Consultant in India"
+  className="w-full rounded-xl mb-12"
+/>
 </div>
 
     {/* CTA Box */}
