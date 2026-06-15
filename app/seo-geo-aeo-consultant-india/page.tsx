@@ -170,7 +170,7 @@ export default function SEOPage() {
 
 <div className="my-12">
   <Image
-    src="\seo-landing page\SEO-GEO-AI-Search-Optimization-Consultant-in-India.jfif"
+    src="/images/seo-landing page/SEO-GEO-AI-Search-Optimization-Consultant-in-India.jfif"
     alt="How AI Search is Changing SEO"
     width={1200}
     height={675}
