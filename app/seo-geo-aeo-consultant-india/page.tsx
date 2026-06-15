@@ -130,117 +130,69 @@ export default function SEOPage() {
       <main className="max-w-5xl mx-auto px-6 py-16 text-gray-900">
 
         {/* HERO */}
-        <section className="py-20">
-  <div className="max-w-5xl mx-auto text-center">
+        <section className="relative overflow-hidden py-24">
+  <div className="absolute inset-0 bg-gradient-to-r from-blue-50 via-purple-50 to-cyan-50" />
 
-    <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-8">
-      SEO, GEO & AI Search Optimization Consultant in India
-    </h1>
+  <div className="relative max-w-7xl mx-auto px-6">
+    <div className="grid lg:grid-cols-2 gap-16 items-center">
 
-    <h2 className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-8">
-      Helping Businesses Improve Visibility Across Google, ChatGPT,
-      Gemini, Perplexity & AI Search Platforms
-    </h2>
+      <div>
+        <span className="inline-flex rounded-full bg-black text-white px-4 py-2 text-sm mb-6">
+          SEO • GEO • AEO • AI Search
+        </span>
 
-<img
-  src="/images/seo-landing%20page/hero.jfif"
-  alt="SEO GEO AI Search Optimization Consultant in India"
-  className="w-full max-w-4xl mx-auto rounded-xl mb-12 shadow-lg"
-/>
+        <h1 className="text-5xl md:text-7xl font-black leading-tight mb-6">
+          SEO, GEO & AI Search Optimization Consultant
+        </h1>
 
-    <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-700">
-      <p>
-        Search is evolving.
-      </p>
+        <p className="text-xl text-gray-600 mb-8">
+          Helping businesses improve visibility across Google,
+          ChatGPT, Gemini, Perplexity and AI-powered search systems.
+        </p>
 
-      <p>
-        Traditional SEO is no longer enough to maximize online visibility.
-        Today, customers discover businesses through Google Search,
-        Google AI Overviews, ChatGPT, Gemini, Perplexity, Microsoft
-        Copilot, and other AI-powered answer engines.
-      </p>
+        <div className="flex flex-wrap gap-4 mb-10">
+          <Link
+            href="/contact"
+            className="bg-black text-white px-8 py-4 rounded-2xl"
+          >
+            Book Strategy Call
+          </Link>
 
-      <p>
-        As search behavior changes, businesses need more than rankings.
-        They need visibility, authority, trust, and discoverability
-        across the entire search ecosystem.
-      </p>
-
-      <p>
-        I help businesses improve their online presence through Search
-        Engine Optimization (SEO), Generative Engine Optimization (GEO),
-        Answer Engine Optimization (AEO), and AI Search Optimization
-        strategies designed for the future of search.
-      </p>
-    </div>
-
-<div className="my-12">
-
-
-</div>
-
-    {/* CTA Box */}
-
-    <div className="mt-14 bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-3xl p-8 md:p-10 shadow-sm">
-
-      <h3 className="text-3xl font-bold mb-4">
-        🚀 Get a Free SEO & AI Visibility Assessment
-      </h3>
-
-      <p className="text-gray-600 max-w-3xl mx-auto mb-8">
-        Want to understand how visible your business is across Google and
-        AI-powered search platforms?
-      </p>
-
-      <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto text-left mb-8">
-
-        <div className="flex items-start gap-3">
-          <span>✓</span>
-          <span>SEO opportunities</span>
+          <Link
+            href="/contact"
+            className="border border-gray-300 px-8 py-4 rounded-2xl"
+          >
+            Free Visibility Audit
+          </Link>
         </div>
 
-        <div className="flex items-start gap-3">
-          <span>✓</span>
-          <span>AI Search Visibility gaps</span>
-        </div>
+        <div className="grid grid-cols-3 gap-4">
+          <div>
+            <div className="text-3xl font-bold">SEO</div>
+            <p className="text-gray-500">Google Search</p>
+          </div>
 
-        <div className="flex items-start gap-3">
-          <span>✓</span>
-          <span>GEO optimization recommendations</span>
-        </div>
+          <div>
+            <div className="text-3xl font-bold">GEO</div>
+            <p className="text-gray-500">AI Citations</p>
+          </div>
 
-        <div className="flex items-start gap-3">
-          <span>✓</span>
-          <span>Content authority improvements</span>
+          <div>
+            <div className="text-3xl font-bold">AEO</div>
+            <p className="text-gray-500">Answer Engines</p>
+          </div>
         </div>
-
-        <div className="flex items-start gap-3 md:col-span-2">
-          <span>✓</span>
-          <span>Practical next steps for growth</span>
-        </div>
-
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
-
-        <a
-          href="/contact"
-          className="px-8 py-4 rounded-xl bg-black text-white font-medium hover:opacity-90 transition"
-        >
-          Schedule a Free Discovery Call
-        </a>
-
-        <a
-          href="/contact"
-          className="px-8 py-4 rounded-xl border border-gray-300 font-medium hover:bg-gray-50 transition"
-        >
-          Request Your Free Visibility Assessment
-        </a>
-
+      <div>
+        <img
+          src="/images/seo-landing%20page/hero.jfif"
+          alt="SEO GEO AI Search Optimization Consultant"
+          className="rounded-3xl shadow-2xl w-full"
+        />
       </div>
 
     </div>
-
   </div>
 </section>
 
