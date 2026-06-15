@@ -883,13 +883,8 @@ export default function SEOPage() {
 
 </div>
 
-{/* Trust Signals Image */}
 
-<img
-  src="/images/seo-landing-page/search-trust-signals.webp"
-  alt="Modern Search Trust Signals"
-  className="max-w-6xl w-full mx-auto rounded-[32px] shadow-2xl mb-16"
-/>
+
 
 {/* Signal Cards */}
 
