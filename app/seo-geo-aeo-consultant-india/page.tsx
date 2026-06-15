@@ -1208,66 +1208,172 @@ export default function SEOPage() {
 
 {/* FUTURE OF SEARCH */}
 
-<section className="py-20 bg-gradient-to-br from-gray-50 to-white rounded-3xl">
+<section className="py-28 relative overflow-hidden">
 
-  <div className="max-w-5xl mx-auto px-6">
+{/* Background Effects */}
 
-    <h2 className="text-4xl font-bold mb-8">
-      The Future of Search
-    </h2>
+  <div className="absolute inset-0 -z-10">
+    <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/10 blur-[140px]" />
+    <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-500/10 blur-[140px]" />
+  </div>
 
-    <p className="text-lg text-gray-700 mb-6">
-      Search is undergoing one of the most significant transformations
-      since the introduction of modern search engines.
+  <div className="max-w-7xl mx-auto px-6">
+
+```
+{/* Header */}
+
+<div className="text-center mb-20">
+
+  <span className="inline-flex px-4 py-2 rounded-full border text-sm font-medium mb-6">
+    Search Evolution
+  </span>
+
+  <h2 className="text-5xl lg:text-6xl font-bold tracking-tight mb-6">
+    The Future of
+    <span className="block text-blue-600">
+      Search & Discovery
+    </span>
+  </h2>
+
+  <p className="max-w-3xl mx-auto text-xl text-gray-600 leading-relaxed">
+    Search is evolving from link-based results to AI-generated
+    answers, personalized recommendations, and conversational
+    experiences.
+  </p>
+
+</div>
+
+{/* Evolution Timeline */}
+
+<div className="grid lg:grid-cols-3 gap-8 mb-20">
+
+  <div className="group bg-white border rounded-3xl p-8 hover:shadow-xl transition-all">
+
+    <div className="text-5xl mb-5">🔍</div>
+
+    <h3 className="text-2xl font-semibold mb-4">
+      Traditional Search
+    </h3>
+
+    <p className="text-gray-600">
+      Users searched keywords and explored pages of links to
+      discover information.
     </p>
 
-    <p className="text-lg text-gray-700 mb-6">
-      Users increasingly expect direct answers rather than lists of
-      links.
+  </div>
+
+  <div className="group bg-white border rounded-3xl p-8 hover:shadow-xl transition-all">
+
+    <div className="text-5xl mb-5">🤖</div>
+
+    <h3 className="text-2xl font-semibold mb-4">
+      AI-Powered Search
+    </h3>
+
+    <p className="text-gray-600">
+      Platforms now summarize information, provide direct answers,
+      and surface trusted sources automatically.
     </p>
 
-    <p className="text-lg text-gray-700 mb-6">
-      Google AI Overviews, ChatGPT, Gemini, Perplexity, and other
-      AI-powered platforms are changing how information is discovered,
-      evaluated, and consumed.
+  </div>
+
+  <div className="group bg-white border rounded-3xl p-8 hover:shadow-xl transition-all">
+
+    <div className="text-5xl mb-5">⚡</div>
+
+    <h3 className="text-2xl font-semibold mb-4">
+      Intelligent Discovery
+    </h3>
+
+    <p className="text-gray-600">
+      Future systems will anticipate intent, personalize responses,
+      and recommend information before users actively search.
     </p>
 
-    <p className="text-lg text-gray-700 mb-10">
-      Businesses that establish strong expertise, authority, and trust
-      signals today are more likely to remain visible as search
-      continues to evolve.
+  </div>
+
+</div>
+
+{/* Platforms */}
+
+<div className="bg-slate-900 rounded-[36px] p-10 lg:p-14 text-white mb-12">
+
+  <div className="max-w-4xl">
+
+    <h3 className="text-3xl font-bold mb-6">
+      Search Is No Longer Just Google
+    </h3>
+
+    <p className="text-slate-300 text-lg leading-relaxed mb-10">
+      Users now discover information through AI assistants,
+      conversational search engines, and answer-generation
+      platforms. Visibility increasingly depends on authority,
+      expertise, entity recognition, and trust signals.
     </p>
 
-    <div className="bg-white border rounded-3xl p-8">
+  </div>
 
-      <h3 className="text-2xl font-semibold mb-4">
-        Building Visibility for the Next Generation of Search
-      </h3>
+  <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
 
-      <p className="text-lg text-gray-700">
-        Investing in SEO,{" "}
-        <Link
-          href="/geo"
-          className="font-semibold hover:underline"
-        >
-          GEO
-        </Link>
-        , AEO, and{" "}
-        <Link
-          href="/ai-search"
-          className="font-semibold hover:underline"
-        >
-          AI Search Optimization
-        </Link>{" "}
-        creates a foundation for long-term discoverability across both
-        traditional and emerging search experiences.
-      </p>
+    {[
+      "Google AI Overviews",
+      "ChatGPT",
+      "Gemini",
+      "Perplexity",
+      "Microsoft Copilot",
+    ].map((platform) => (
+      <div
+        key={platform}
+        className="bg-white/5 border border-white/10 rounded-2xl p-5 text-center backdrop-blur"
+      >
+        {platform}
+      </div>
+    ))}
 
-    </div>
+  </div>
+
+</div>
+
+{/* CTA Card */}
+
+<div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-[32px] p-10 text-white">
+
+  <h3 className="text-3xl font-bold mb-4">
+    Build Visibility Before the Shift Happens
+  </h3>
+
+  <p className="text-lg text-blue-100 mb-8 max-w-3xl">
+    Organizations investing in SEO, GEO, AEO, and AI Search
+    Optimization today are positioning themselves for long-term
+    visibility across both traditional search engines and emerging
+    AI-powered discovery systems.
+  </p>
+
+  <div className="flex flex-wrap gap-4">
+
+    <Link
+      href="/geo"
+      className="bg-white text-blue-600 px-6 py-3 rounded-xl font-medium hover:bg-gray-100 transition"
+    >
+      Explore GEO
+    </Link>
+
+    <Link
+      href="/ai-search"
+      className="border border-white/30 px-6 py-3 rounded-xl font-medium hover:bg-white/10 transition"
+    >
+      Learn AI Search Optimization
+    </Link>
+
+  </div>
+
+</div>
+```
 
   </div>
 
 </section>
+
 
 {/* FAQ SECTION */}
 
