@@ -18,191 +18,288 @@ export default function AEOPage() {
     <main className="w-full">
 
       {/* HERO SECTION */}
-      <section className="relative overflow-hidden border-b">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-indigo-50" />
+<section className="relative overflow-hidden border-b">
+  <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-indigo-50" />
 
-        <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
+  <div className="relative mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
 
-          <div className="max-w-4xl">
+    <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
 
-           
+      {/* LEFT CONTENT */}
+      <div>
 
-            <h1 className="mt-6 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-7xl">
-              Answer Engine Optimization (AEO) Services in India
-            </h1>
+        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-7xl">
+          Answer Engine Optimization (AEO) Services in India
+        </h1>
 
-            <h2 className="mt-6 text-xl font-medium text-gray-600 lg:text-2xl">
-              Get Found in Google Answers, ChatGPT, Gemini,
-              Perplexity & AI Search
-            </h2>
+        <h2 className="mt-6 text-xl font-medium text-gray-600 lg:text-2xl">
+          Get Found in Google Answers, ChatGPT, Gemini,
+          Perplexity & AI Search
+        </h2>
 
-            <p className="mt-8 text-lg leading-8 text-gray-700">
-              The way people search online is changing rapidly.
-            </p>
+        <p className="mt-8 text-lg leading-8 text-gray-700">
+          The way people search online is changing rapidly.
+        </p>
 
-            <p className="mt-6 text-lg leading-8 text-gray-700">
-              Instead of browsing through multiple websites, users are now
-              asking questions directly to AI-powered search engines and
-              answer engines such as ChatGPT, Google AI Overviews, Gemini,
-              Perplexity AI, Claude, Copilot, and other conversational
-              search platforms.
-            </p>
+        <p className="mt-4 text-lg leading-8 text-gray-700">
+          Instead of browsing multiple websites, users now ask questions
+          directly to AI-powered search engines such as ChatGPT,
+          Google AI Overviews, Gemini, Perplexity AI, Claude and Copilot.
+        </p>
 
-            <p className="mt-6 text-lg leading-8 text-gray-700">
-              If your business is not appearing in these AI-generated
-              answers, you are missing a growing source of visibility,
-              traffic, leads, and brand authority.
-            </p>
+        <p className="mt-4 text-lg leading-8 text-gray-700">
+          If your business is not appearing in these AI-generated answers,
+          you are missing a growing source of visibility, traffic,
+          leads and authority.
+        </p>
 
-            <p className="mt-6 text-lg leading-8 text-gray-700">
-              Our Answer Engine Optimization (AEO) services help businesses
-              become discoverable, understandable, and reference-worthy
-              across both traditional search engines and modern AI search
-              platforms.
-            </p>
+        <div className="mt-10 flex flex-col gap-4 sm:flex-row">
 
-            <div className="mt-12">
-  <Image
-    src="/images/aeo-hero.webp"
-    alt="Answer Engine Optimization Services"
-    width={1200}
-    height={700}
-    className="w-full rounded-3xl border shadow-xl"
-    priority
-  />
-</div>
+          <Link
+            href="/contact"
+            className="inline-flex items-center justify-center rounded-xl bg-blue-600 px-8 py-4 text-base font-semibold text-white transition hover:bg-blue-700"
+          >
+            Book Free Consultation
+          </Link>
 
-            {/* CTA */}
-            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+          <Link
+            href="#what-is-aeo"
+            className="inline-flex items-center justify-center rounded-xl border border-gray-300 px-8 py-4 text-base font-semibold hover:bg-white"
+          >
+            Learn More
+          </Link>
 
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center rounded-xl bg-black px-8 py-4 text-base font-semibold text-white transition hover:opacity-90"
-              >
-                Book a Free AEO Strategy Consultation
-              </Link>
-
-              <Link
-                href="#what-is-aeo"
-                className="inline-flex items-center justify-center rounded-xl border px-8 py-4 text-base font-semibold hover:bg-gray-50"
-              >
-                Learn More
-              </Link>
-
-            </div>
-
-            <p className="mt-6 text-sm text-gray-500">
-              Discover how your website can earn visibility in Google AI
-              Overviews, ChatGPT recommendations, Gemini responses, and
-              other AI-powered answer engines.
-            </p>
-
-          </div>
         </div>
-      </section>
+
+        <p className="mt-6 text-sm text-gray-500">
+          Improve visibility across Google AI Overviews, ChatGPT,
+          Gemini and AI-powered answer engines.
+        </p>
+
+      </div>
+
+      {/* RIGHT IMAGE */}
+      <div className="relative">
+
+        <img
+          src="/images/aeo-landing page/hero section.jfif"
+          alt="Answer Engine Optimization Services"
+          className="w-full rounded-[32px] shadow-2xl object-cover"
+        />
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       {/* WHAT IS AEO */}
-      <section
-        id="what-is-aeo"
-        className="mx-auto max-w-7xl px-6 py-20 lg:px-8"
-      >
-        <div className="grid gap-16 lg:grid-cols-2 lg:gap-20">
+<section
+  id="what-is-aeo"
+  className="mx-auto max-w-7xl px-6 py-20 lg:px-8"
+>
+  <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
 
-          <div>
-            
+    {/* LEFT CONTENT */}
+    <div>
 
-            <h2 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 lg:text-5xl">
-              What is Answer Engine Optimization (AEO)?
-            </h2>
+      <span className="inline-flex rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700">
+        AEO Fundamentals
+      </span>
 
-            <p className="mt-8 text-lg leading-8 text-gray-700">
-  Answer Engine Optimization (AEO) is the process of optimizing
-  website content so that search engines and AI systems can
-  easily understand, extract, and present your information as
-  direct answers to user questions. AEO works alongside{" "}
-  <Link
-    href="/seo-geo-aeo-consultant-india"
-    className="font-semibold text-blue-600 hover:underline"
-  >
-    SEO, GEO and AI search optimization strategies
-  </Link>{" "}
-  to improve visibility across modern search platforms.
-</p>
+      <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 lg:text-5xl">
+        What is Answer Engine Optimization (AEO)?
+      </h2>
 
-            <p className="mt-6 text-lg leading-8 text-gray-700">
-  Unlike traditional{" "}
-  <Link
-    href="/seo-geo-aeo-consultant-india"
-    className="font-semibold text-blue-600 hover:underline"
-  >
-    SEO services
-  </Link>
-  , which focus primarily on rankings and clicks, AEO focuses on
-  becoming the answer itself within AI-powered search experiences.
-</p>
+      <p className="mt-8 text-lg leading-8 text-gray-700">
+        Answer Engine Optimization (AEO) is the process of optimizing
+        website content so that search engines and AI systems can
+        easily understand, extract, and present your information as
+        direct answers to user questions.
+      </p>
 
-            <p className="mt-6 text-lg leading-8 text-gray-700">
-              AEO ensures your content is structured in a way that answer
-              engines can confidently use when responding to user queries.
-            </p>
-          </div>
+      <p className="mt-6 text-lg leading-8 text-gray-700">
+        AEO works alongside{" "}
+        <Link
+          href="/seo-geo-aeo-consultant-india"
+          className="font-semibold text-blue-600 hover:underline"
+        >
+          SEO, GEO and AI Search Optimization
+        </Link>{" "}
+        to improve visibility across modern search platforms such as
+        Google AI Overviews, ChatGPT, Gemini, Claude and Perplexity.
+      </p>
 
-          <div>
-            <div className="rounded-3xl border bg-white p-8 shadow-sm">
+      <p className="mt-6 text-lg leading-8 text-gray-700">
+        Unlike traditional{" "}
+        <Link
+          href="/seo-geo-aeo-consultant-india"
+          className="font-semibold text-blue-600 hover:underline"
+        >
+          SEO services
+        </Link>
+        , which focus primarily on rankings and clicks, AEO focuses on
+        becoming the answer itself.
+      </p>
 
-              <h3 className="text-xl font-semibold text-gray-900">
-                Modern Search Prioritizes
-              </h3>
+      <p className="mt-6 text-lg leading-8 text-gray-700">
+        When content is properly structured, answer engines can
+        confidently use it to generate responses, citations,
+        summaries and recommendations.
+      </p>
 
-              <div className="mt-8 grid gap-4">
+      <div className="mt-10 flex flex-wrap gap-3">
 
-                {[
-                  "Direct Answers",
-                  "AI-Generated Summaries",
-                  "Featured Snippets",
-                  "Voice Search Responses",
-                  "Knowledge Panels",
-                  "AI Citations",
-                  "Conversational Search Results",
-                ].map((item) => (
-                  <div
-                    key={item}
-                    className="flex items-center rounded-xl border p-4"
-                  >
-                    <span className="mr-3 text-lg">✓</span>
-                    <span className="font-medium">{item}</span>
-                  </div>
-                ))}
+        {[
+          "AI Answers",
+          "Featured Snippets",
+          "AI Citations",
+          "Voice Search",
+          "Knowledge Panels",
+        ].map((item) => (
+          <span
+            key={item}
+            className="rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-medium text-blue-700"
+          >
+            {item}
+          </span>
+        ))}
 
-              </div>
+      </div>
+
+    </div>
+
+    {/* RIGHT IMAGE */}
+    <div className="relative">
+
+      <img
+        src="/images/aeo-landing%20page/What%20is%20AEO%20Section.jfif"
+        alt="What is Answer Engine Optimization"
+        className="h-full min-h-[450px] w-full rounded-3xl object-cover shadow-2xl"
+      />
+
+      {/* FLOATING CARD */}
+      <div className="absolute bottom-4 left-4 right-4 rounded-2xl bg-white/95 p-5 shadow-xl backdrop-blur lg:bottom-6 lg:left-6 lg:right-6 lg:p-6">
+
+        <h3 className="text-lg font-bold text-gray-900">
+          Modern Search Prioritizes
+        </h3>
+
+        <div className="mt-4 grid grid-cols-2 gap-3">
+
+          {[
+            "Direct Answers",
+            "AI Summaries",
+            "Featured Snippets",
+            "Voice Search",
+            "Knowledge Panels",
+            "AI Citations",
+          ].map((item) => (
+            <div
+              key={item}
+              className="rounded-xl border border-blue-100 bg-blue-50 px-3 py-2 text-center text-sm font-medium text-gray-700"
+            >
+              {item}
             </div>
-          </div>
+          ))}
 
         </div>
-      </section>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
 
 {/* WHY AEO MATTERS */}
-
-<section className="py-24 bg-gradient-to-b from-slate-50 to-white">
+<section className="py-20 lg:py-28 bg-gradient-to-b from-slate-50 via-white to-blue-50/30">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
+    <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
 
-<div className="mx-auto max-w-3xl text-center">
+      {/* LEFT CONTENT */}
+      <div>
 
+        <span className="inline-flex rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
+          Future of Search
+        </span>
 
+        <h2 className="mt-6 text-4xl font-bold tracking-tight text-gray-900 lg:text-6xl">
+          Why AEO Matters in 2026 and Beyond
+        </h2>
 
-  <h2 className="mt-6 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl">
-    Why AEO Matters in 2026 and Beyond
-  </h2>
+        <p className="mt-6 text-lg leading-8 text-gray-600">
+          Search is evolving from a list of links to direct answers generated
+          by AI systems. Businesses that adapt early gain visibility where
+          customers are increasingly searching.
+        </p>
 
-  <p className="mt-6 text-lg leading-8 text-gray-600">
-    Search is evolving from a list of links to direct answers generated
-    by AI systems. Businesses that adapt early gain visibility where
-    customers are increasingly searching.
-  </p>
+        <div className="mt-10 space-y-5">
 
-</div>
+          {[
+            "Google AI Overviews are replacing traditional clicks",
+            "Users increasingly ask ChatGPT and Gemini for recommendations",
+            "AI assistants summarize information instead of listing websites",
+            "Brands cited by AI gain authority and trust",
+          ].map((item) => (
+            <div
+              key={item}
+              className="flex items-start gap-4"
+            >
+              <div className="mt-1 flex h-7 w-7 items-center justify-center rounded-full bg-blue-600 text-white text-sm">
+                ✓
+              </div>
+
+              <p className="text-gray-700">
+                {item}
+              </p>
+            </div>
+          ))}
+
+        </div>
+
+        {/* STATS */}
+        <div className="mt-10 grid grid-cols-2 gap-4">
+
+          <div className="rounded-2xl border bg-white p-5 shadow-sm">
+            <div className="text-3xl font-bold text-blue-600">
+              AI
+            </div>
+
+            <p className="mt-2 text-sm text-gray-600">
+              Search-driven discovery is growing rapidly.
+            </p>
+          </div>
+
+          <div className="rounded-2xl border bg-white p-5 shadow-sm">
+            <div className="text-3xl font-bold text-blue-600">
+              24/7
+            </div>
+
+            <p className="mt-2 text-sm text-gray-600">
+              AI assistants answer customer questions anytime.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      {/* RIGHT IMAGE */}
+      <div>
+
+        <img
+          src="/images/aeo-landing page/Why AEO Matters Section.jfif"
+          alt="Why Answer Engine Optimization Matters"
+          className="w-full rounded-[32px] shadow-2xl object-cover"
+        />
+
+      </div>
+
+    </div>
 
 {/* OLD SEARCH VS AI SEARCH */}
 <div className="mt-20 grid gap-8 lg:grid-cols-2">
