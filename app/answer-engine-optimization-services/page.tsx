@@ -17,42 +17,36 @@ export default function AEOPage() {
   return (
     <main className="w-full">
 
-      {/* HERO SECTION */}
-<section className="relative overflow-hidden border-b">
-  <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-indigo-50" />
+     {/* HERO SECTION */}
+<section className="relative overflow-hidden bg-gradient-to-b from-blue-50 via-white to-white">
+  <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(37,99,235,0.12),transparent_40%)]" />
 
   <div className="relative mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
 
-    <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
+    <div className="grid items-center gap-14 lg:grid-cols-[1fr_1.15fr]">
 
       {/* LEFT CONTENT */}
       <div>
 
-        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-7xl">
+        <span className="inline-flex rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700">
+          AI Search Visibility Services
+        </span>
+
+        <h1 className="mt-6 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
           Answer Engine Optimization (AEO) Services in India
         </h1>
 
-        <h2 className="mt-6 text-xl font-medium text-gray-600 lg:text-2xl">
-          Get Found in Google Answers, ChatGPT, Gemini,
-          Perplexity & AI Search
-        </h2>
-
-        <p className="mt-8 text-lg leading-8 text-gray-700">
-          The way people search online is changing rapidly.
+        <p className="mt-6 text-xl leading-8 text-gray-600">
+          Get discovered in Google AI Overviews, ChatGPT, Gemini,
+          Perplexity and the next generation of AI-powered search engines.
         </p>
 
-        <p className="mt-4 text-lg leading-8 text-gray-700">
-          Instead of browsing multiple websites, users now ask questions
-          directly to AI-powered search engines such as ChatGPT,
-          Google AI Overviews, Gemini, Perplexity AI, Claude and Copilot.
+        <p className="mt-6 text-lg leading-8 text-gray-700">
+          We help businesses structure content, improve authority signals,
+          earn AI citations and increase visibility across answer engines.
         </p>
 
-        <p className="mt-4 text-lg leading-8 text-gray-700">
-          If your business is not appearing in these AI-generated answers,
-          you are missing a growing source of visibility, traffic,
-          leads and authority.
-        </p>
-
+        {/* CTA */}
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
 
           <Link
@@ -64,28 +58,81 @@ export default function AEOPage() {
 
           <Link
             href="#what-is-aeo"
-            className="inline-flex items-center justify-center rounded-xl border border-gray-300 px-8 py-4 text-base font-semibold hover:bg-white"
+            className="inline-flex items-center justify-center rounded-xl border border-gray-300 bg-white px-8 py-4 text-base font-semibold text-gray-900 hover:bg-gray-50"
           >
             Learn More
           </Link>
 
         </div>
 
-        <p className="mt-6 text-sm text-gray-500">
-          Improve visibility across Google AI Overviews, ChatGPT,
-          Gemini and AI-powered answer engines.
-        </p>
+        {/* TRUST BADGES */}
+        <div className="mt-10 flex flex-wrap gap-3">
+
+          {[
+            "Google AI Overviews",
+            "ChatGPT",
+            "Gemini",
+            "Perplexity",
+          ].map((item) => (
+            <span
+              key={item}
+              className="rounded-full bg-blue-50 px-4 py-2 text-sm font-medium text-blue-700"
+            >
+              {item}
+            </span>
+          ))}
+
+        </div>
 
       </div>
 
-      {/* RIGHT IMAGE */}
+      {/* RIGHT VISUAL */}
       <div className="relative">
 
         <img
           src="/images/aeo-landing page/hero section.jfif"
           alt="Answer Engine Optimization Services"
-          className="w-full rounded-[32px] shadow-2xl object-cover"
+          className="h-[350px] w-full rounded-[32px] object-cover shadow-2xl lg:h-[550px]"
         />
+
+        {/* Floating Card */}
+        <div className="absolute -bottom-6 left-6 right-6 rounded-2xl bg-white p-6 shadow-xl">
+
+          <div className="grid grid-cols-3 gap-4 text-center">
+
+            <div>
+              <div className="text-2xl font-bold text-blue-600">
+                SEO
+              </div>
+
+              <p className="mt-1 text-sm text-gray-500">
+                Rankings
+              </p>
+            </div>
+
+            <div>
+              <div className="text-2xl font-bold text-blue-600">
+                GEO
+              </div>
+
+              <p className="mt-1 text-sm text-gray-500">
+                AI Citations
+              </p>
+            </div>
+
+            <div>
+              <div className="text-2xl font-bold text-blue-600">
+                AEO
+              </div>
+
+              <p className="mt-1 text-sm text-gray-500">
+                Answers
+              </p>
+            </div>
+
+          </div>
+
+        </div>
 
       </div>
 
@@ -104,9 +151,7 @@ export default function AEOPage() {
     {/* LEFT CONTENT */}
     <div>
 
-      <span className="inline-flex rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700">
-        AEO Fundamentals
-      </span>
+
 
       <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 lg:text-5xl">
         What is Answer Engine Optimization (AEO)?
@@ -168,16 +213,7 @@ export default function AEOPage() {
 
       </div>
 
-    </div>
 
-    {/* RIGHT IMAGE */}
-    <div className="relative">
-
-      <img
-        src="/images/aeo-landing%20page/What%20is%20AEO%20Section.jfif"
-        alt="What is Answer Engine Optimization"
-        className="h-full min-h-[450px] w-full rounded-3xl object-cover shadow-2xl"
-      />
 
       {/* FLOATING CARD */}
       <div className="absolute bottom-4 left-4 right-4 rounded-2xl bg-white/95 p-5 shadow-xl backdrop-blur lg:bottom-6 lg:left-6 lg:right-6 lg:p-6">
@@ -223,10 +259,7 @@ export default function AEOPage() {
       {/* LEFT CONTENT */}
       <div>
 
-        <span className="inline-flex rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
-          Future of Search
-        </span>
-
+        
         <h2 className="mt-6 text-4xl font-bold tracking-tight text-gray-900 lg:text-6xl">
           Why AEO Matters in 2026 and Beyond
         </h2>
