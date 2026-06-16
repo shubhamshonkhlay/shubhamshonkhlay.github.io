@@ -18,36 +18,21 @@
 }
 
 /* ========================================
-   GLOBAL RESET
+   BASE
 ======================================== */
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 html {
-  width: 100%;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body {
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
-
-  background: #ffffff;
-  color: #171717;
-
+  background: var(--background);
+  color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 /* ========================================
@@ -59,19 +44,14 @@ picture,
 video,
 canvas,
 svg {
-  display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* ========================================
-   LINKS
-======================================== */
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
+
+
+
 
 /* ========================================
    FORMS
@@ -84,23 +64,7 @@ button {
   font: inherit;
 }
 
-button {
-  cursor: pointer;
-}
 
-/* ========================================
-   PREVENT MOBILE OVERFLOW
-======================================== */
-
-main,
-section,
-div,
-article,
-aside,
-header,
-footer {
-  min-width: 0;
-}
 
 /* ========================================
    TYPOGRAPHY
@@ -113,80 +77,14 @@ h4,
 h5,
 h6 {
   text-wrap: balance;
-  line-height: 1.15;
+
 }
 
 p {
   text-wrap: pretty;
 }
 
-/* ========================================
-   COMMON CONTAINER
-======================================== */
 
-.container-fluid {
-  width: 100%;
-  max-width: 1600px;
-  margin-inline: auto;
-  padding-inline: 1rem;
-}
-
-@media (min-width: 640px) {
-  .container-fluid {
-    padding-inline: 1.5rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container-fluid {
-    padding-inline: 3rem;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container-fluid {
-    padding-inline: 4rem;
-  }
-}
-
-/* ========================================
-   MOBILE IMPROVEMENTS
-======================================== */
-
-@media (max-width: 640px) {
-  body {
-    font-size: 15px;
-  }
-
-  section {
-    overflow-x: hidden;
-  }
-
-  h1 {
-    line-height: 1.1;
-  }
-
-  h2 {
-    line-height: 1.15;
-  }
-}
-
-/* ========================================
-   SCROLLBAR
-======================================== */
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 999px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
 
 /* ========================================
    TEXT SELECTION
@@ -194,7 +92,7 @@ p {
 
 ::selection {
   background: #2563eb;
-  color: #ffffff;
+  color: white;
 }
 
 /* ========================================
