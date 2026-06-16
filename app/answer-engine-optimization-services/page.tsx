@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Get found in Google AI Overviews, ChatGPT, Gemini, Perplexity and AI-powered search engines with Answer Engine Optimization (AEO) services.",
   alternates: {
     canonical:
-      "https://yourdomain.com/answer-engine-optimization-services",
+      "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services",
   },
 };
 
@@ -60,6 +60,17 @@ export default function AEOPage() {
               across both traditional search engines and modern AI search
               platforms.
             </p>
+
+            <div className="mt-12">
+  <Image
+    src="/images/aeo-hero.webp"
+    alt="Answer Engine Optimization Services"
+    width={1200}
+    height={700}
+    className="w-full rounded-3xl border shadow-xl"
+    priority
+  />
+</div>
 
             {/* CTA */}
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
