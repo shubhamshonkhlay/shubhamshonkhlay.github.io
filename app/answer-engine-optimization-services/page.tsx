@@ -248,6 +248,17 @@ const schema = {
 
 export default function AEOPage() {
   return (
+    <>
+      {/* ✅ SEO SCHEMA */}
+      <Script
+  id="aeo-schema"
+  type="application/ld+json"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(schema),
+  }}
+/>  
+
     <main className="w-full">
 
      {/* HERO SECTION */}
@@ -1447,6 +1458,9 @@ export default function AEOPage() {
 </section>
 
     </main>
+
+    </>
   );
 }
+
 
