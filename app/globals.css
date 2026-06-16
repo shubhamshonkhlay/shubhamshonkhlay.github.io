@@ -21,7 +21,11 @@
    BASE
 ======================================== */
 
-html {
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -46,12 +50,8 @@ canvas,
 svg {
   max-width: 100%;
   height: auto;
+  display: block;
 }
-
-
-
-
-
 
 /* ========================================
    FORMS
@@ -64,8 +64,6 @@ button {
   font: inherit;
 }
 
-
-
 /* ========================================
    TYPOGRAPHY
 ======================================== */
@@ -77,14 +75,25 @@ h4,
 h5,
 h6 {
   text-wrap: balance;
-
 }
 
 p {
   text-wrap: pretty;
 }
 
+/* ========================================
+   PREVENT MOBILE OVERFLOW
+======================================== */
 
+main,
+section,
+div,
+article,
+aside,
+header,
+footer {
+  min-width: 0;
+}
 
 /* ========================================
    TEXT SELECTION

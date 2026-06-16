@@ -5,7 +5,7 @@ export default function PageLayout({
 }) {
   return (
     <main className="w-full overflow-x-hidden">
-      <div className="mx-auto w-full max-w-[1600px] px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+      <div className="mx-auto w-full max-w-[1600px] px-4 sm:px-6 lg:px-10 xl:px-12">
         {children}
       </div>
     </main>
