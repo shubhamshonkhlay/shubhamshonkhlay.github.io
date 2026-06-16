@@ -3,6 +3,20 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import Script from "next/script";
 
+
+
+
+export const metadata: Metadata = {
+  title:
+    "Answer Engine Optimization (AEO) Services in India | AI Search Visibility",
+  description:
+    "Get found in Google AI Overviews, ChatGPT, Gemini, Perplexity and AI-powered search engines with Answer Engine Optimization (AEO) services.",
+  alternates: {
+    canonical:
+      "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services",
+  },
+};
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -230,16 +244,7 @@ const schema = {
   ]
 };
 
-export const metadata: Metadata = {
-  title:
-    "Answer Engine Optimization (AEO) Services in India | AI Search Visibility",
-  description:
-    "Get found in Google AI Overviews, ChatGPT, Gemini, Perplexity and AI-powered search engines with Answer Engine Optimization (AEO) services.",
-  alternates: {
-    canonical:
-      "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services",
-  },
-};
+
 
 export default function AEOPage() {
   return (
