@@ -139,46 +139,67 @@ const schema = {
     },
 
     {
-      "@type": "ItemList",
-      name: "AEO Services",
-      itemListElement: [
-        {
-          "@type": "Service",
-          position: 1,
-          name: "AEO Strategy Development"
-        },
-        {
-          "@type": "Service",
-          position: 2,
-          name: "Content Optimization"
-        },
-        {
-          "@type": "Service",
-          position: 3,
-          name: "FAQ Optimization"
-        },
-        {
-          "@type": "Service",
-          position: 4,
-          name: "Featured Snippet Optimization"
-        },
-        {
-          "@type": "Service",
-          position: 5,
-          name: "Schema Markup Implementation"
-        },
-        {
-          "@type": "Service",
-          position: 6,
-          name: "Entity Optimization"
-        },
-        {
-          "@type": "Service",
-          position: 7,
-          name: "AI Search Visibility Audits"
-        }
-      ]
+  "@type": "ItemList",
+  "name": "AEO Services",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Service",
+        "name": "AEO Strategy Development"
+      }
     },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Service",
+        "name": "Content Optimization"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Service",
+        "name": "FAQ Optimization"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Service",
+        "name": "Featured Snippet Optimization"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Service",
+        "name": "Schema Markup Implementation"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Service",
+        "name": "Entity Optimization"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Service",
+        "name": "AI Search Visibility Audits"
+      }
+    }
+  ]
+},
 
     {
       "@type": "FAQPage",
