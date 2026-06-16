@@ -2,9 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import Script from "next/script";
-
-
-
+import ScrollReveal from "../../component/ScrollReveal";
 
 export const metadata: Metadata = {
   title:
@@ -233,7 +231,8 @@ export default function AEOPage() {
     <main className="w-full">
 
      {/* HERO SECTION */}
-<section className="relative overflow-hidden bg-gradient-to-b from-blue-50 via-white to-white">
+<ScrollReveal>
+  <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 via-white to-white">
   <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(37,99,235,0.12),transparent_40%)]" />
 
   <div className="relative mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
@@ -357,6 +356,7 @@ export default function AEOPage() {
 </section>
 
     {/* WHAT IS AEO */}
+<ScrollReveal>
 <section
   id="what-is-aeo"
   className="py-24 bg-gradient-to-b from-white to-slate-50"
@@ -458,9 +458,11 @@ export default function AEOPage() {
 
   </div>
 </section>
+</ScrollReveal>
 
 
 {/* WHY AEO MATTERS */}
+<ScrollReveal>
 <section className="py-20 lg:py-28 bg-gradient-to-b from-slate-50 via-white to-blue-50/30">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
@@ -664,9 +666,11 @@ export default function AEOPage() {
 
   </div>
 </section>
+</ScrollReveal>
 
 
 {/* AEO VS SEO */}
+ <ScrollReveal>   
 <section className="py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
@@ -771,8 +775,10 @@ export default function AEOPage() {
 
   </div>
 </section>
+</ScrollReveal>
 
 {/* HOW ANSWER ENGINES CHOOSE CONTENT */}
+<ScrollReveal>
 <section className="bg-slate-50 py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
@@ -843,9 +849,10 @@ export default function AEOPage() {
 
   </div>
 </section>
-
+</ScrollReveal>
 
 {/* OUR AEO SERVICES */}
+<ScrollReveal>
 <section className="py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
@@ -922,6 +929,7 @@ export default function AEOPage() {
 
   </div>
 </section>
+</ScrollReveal>
 
 {/* HOW AEO SUPPORTS GEO & SEO */}
 <section className="py-24 bg-white">
@@ -1427,6 +1435,7 @@ export default function AEOPage() {
 
   </div>
 </section>
+</ScrollReveal>
 
     </main>
 
