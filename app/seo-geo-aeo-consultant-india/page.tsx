@@ -500,6 +500,7 @@ export default function SEOPage() {
 
 {/* WHO I WORK WITH */}
 
+<StaggerSection>
 <section className="py-28">
 
   <div className="max-w-7xl mx-auto px-6">
@@ -570,9 +571,10 @@ export default function SEOPage() {
   </div>
 
 </section>
+</StaggerSection>
 
 {/* HOW I HELP */}
-
+<StaggerSection>
 <section className="py-28 bg-slate-950 text-white">
 
   <div className="max-w-7xl mx-auto px-6">
@@ -687,9 +689,11 @@ export default function SEOPage() {
   </div>
 
 </section>
+</StaggerSection>
 
 {/* CHALLENGES SECTION */}
 
+<StaggerSection>
 <section className="py-28">
 
   <div className="max-w-7xl mx-auto px-6">
@@ -784,10 +788,11 @@ export default function SEOPage() {
   </div>
 
 </section>
-
+</StaggerSection>
 
 {/* PROCESS SECTION */}
 
+<StaggerSection>
 <section className="py-20 bg-gray-50 rounded-3xl">
 
   <div className="max-w-6xl mx-auto px-6">
@@ -859,9 +864,11 @@ export default function SEOPage() {
   </div>
 
 </section>
+</StaggerSection>
 
 {/* APPROACH SECTION */}
 
+<StaggerSection>
 <section className="py-28">
 
   <div className="max-w-7xl mx-auto px-6">
@@ -963,10 +970,11 @@ export default function SEOPage() {
   </div>
 
 </section>
-
+</StaggerSection>
 
 {/* ENTITY SEO SECTION */}
 
+<StaggerSection>
 <section className="py-28 bg-gradient-to-b from-gray-50 to-white rounded-[40px]">
 
   <div className="max-w-7xl mx-auto px-6">
@@ -1094,7 +1102,7 @@ export default function SEOPage() {
   </div>
 
 </section>
-
+</StaggerSection>
 
 {/* AI SEARCH DISCOVERY SECTION */}
 
