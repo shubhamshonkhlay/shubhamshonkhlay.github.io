@@ -20,30 +20,49 @@ export const metadata: Metadata = {
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+
+    {
+      "@type": "WebPage",
+      "@id": "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services/#webpage",
+      "url": "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services",
+      "name": "Answer Engine Optimization (AEO) Services in India",
+      "description": "Answer Engine Optimization services helping businesses improve visibility across Google AI Overviews, ChatGPT, Gemini, Claude, Copilot and Perplexity.",
+
+      "isPartOf": {
+        "@id": "https://shubhamshonkhlay-github-io.vercel.app/#website"
+      },
+
+      "about": {
+        "@id": "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services/#service"
+      },
+
+      "author": {
+        "@id": "https://shubhamshonkhlay-github-io.vercel.app/#person"
+      }
+    },
+
     {
       "@type": "Organization",
       "@id": "https://shubhamshonkhlay-github-io.vercel.app/#organization",
-      name: "Shubham Shonkhlay",
-      url: "https://shubhamshonkhlay-github-io.vercel.app",
-      description:
-        "SEO, GEO, AEO and AI Search Visibility Consulting Services in India.",
-      logo: {
+      "name": "Shubham Shonkhlay",
+      "url": "https://shubhamshonkhlay-github-io.vercel.app",
+      "description": "SEO, GEO, AEO and AI Search Visibility Consulting Services in India.",
+      "logo": {
         "@type": "ImageObject",
-        url: "https://shubhamshonkhlay-github-io.vercel.app/favicon.ico"
+        "url": "https://shubhamshonkhlay-github-io.vercel.app/favicon.ico"
       }
     },
 
     {
       "@type": "Person",
       "@id": "https://shubhamshonkhlay-github-io.vercel.app/#person",
-      name: "Shubham Shonkhlay",
-      url: "https://shubhamshonkhlay-github-io.vercel.app",
-      jobTitle: "SEO Consultant, GEO Specialist & AI Search Strategist",
-      worksFor: {
-        "@id":
-          "https://shubhamshonkhlay-github-io.vercel.app/#organization"
+      "name": "Shubham Shonkhlay",
+      "url": "https://shubhamshonkhlay-github-io.vercel.app",
+      "jobTitle": "SEO Consultant, GEO Specialist & AI Search Strategist",
+      "worksFor": {
+        "@id": "https://shubhamshonkhlay-github-io.vercel.app/#organization"
       },
-      knowsAbout: [
+      "knowsAbout": [
         "Search Engine Optimization",
         "Generative Engine Optimization",
         "Answer Engine Optimization",
@@ -59,209 +78,140 @@ const schema = {
     {
       "@type": "WebSite",
       "@id": "https://shubhamshonkhlay-github-io.vercel.app/#website",
-      url: "https://shubhamshonkhlay-github-io.vercel.app",
-      name: "Shubham Shonkhlay",
-      publisher: {
-        "@id":
-          "https://shubhamshonkhlay-github-io.vercel.app/#organization"
+      "url": "https://shubhamshonkhlay-github-io.vercel.app",
+      "name": "Shubham Shonkhlay",
+      "publisher": {
+        "@id": "https://shubhamshonkhlay-github-io.vercel.app/#organization"
       }
     },
 
     {
       "@type": "WebPage",
-      "@id":
-        "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services/#webpage",
-      url:
-        "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services",
-      name:
-        "Answer Engine Optimization (AEO) Services in India",
-      description:
-        "Answer Engine Optimization services helping businesses improve visibility across Google AI Overviews, ChatGPT, Gemini, Claude, Copilot and Perplexity.",
-      isPartOf: {
-        "@id":
-          "https://shubhamshonkhlay-github-io.vercel.app/#website"
-      },
-      about: {
-        "@id":
-          "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services/#service"
-      },
-      author: {
-        "@id":
-          "https://shubhamshonkhlay-github-io.vercel.app/#person"
-      }
+      "@id": "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services/#webpage-main",
+      "url": "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services",
+      "name": "AEO Services Page Entity"
     },
 
     {
-      "@type": "ProfessionalService",
-      "@id":
-        "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services/#service",
-      name: "Answer Engine Optimization Services",
-      provider: {
-        "@id":
-          "https://shubhamshonkhlay-github-io.vercel.app/#person"
-      },
-      areaServed: {
-        "@type": "Country",
-        name: "India"
-      },
-      serviceType: [
+      "@type": "Service",
+      "@id": "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services/#service",
+      "name": "Answer Engine Optimization Services",
+      "serviceType": [
         "Answer Engine Optimization",
         "SEO",
         "Generative Engine Optimization",
         "AI Search Visibility"
       ],
-      description:
-        "Answer Engine Optimization services helping businesses gain visibility across Google AI Overviews, ChatGPT, Gemini, Claude and Perplexity.",
-      url:
-        "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services"
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "provider": {
+        "@id": "https://shubhamshonkhlay-github-io.vercel.app/#organization"
+      }
     },
 
     {
-      "@type": "BreadcrumbList",
-      "@id":
-        "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services/#breadcrumb",
-      itemListElement: [
+      "@type": "ItemList",
+      "@id": "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services/#services-list",
+      "name": "AEO Services",
+      "itemListElement": [
         {
           "@type": "ListItem",
-          position: 1,
-          name: "Home",
-          item:
-            "https://shubhamshonkhlay-github-io.vercel.app"
+          "position": 1,
+          "item": { "@type": "Service", "name": "AEO Strategy Development" }
         },
         {
           "@type": "ListItem",
-          position: 2,
-          name: "Answer Engine Optimization Services",
-          item:
-            "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services"
+          "position": 2,
+          "item": { "@type": "Service", "name": "Content Optimization" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": { "@type": "Service", "name": "FAQ Optimization" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": { "@type": "Service", "name": "Featured Snippet Optimization" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": { "@type": "Service", "name": "Schema Markup Implementation" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": { "@type": "Service", "name": "Entity Optimization" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": { "@type": "Service", "name": "AI Search Visibility Audits" }
         }
       ]
     },
-
-    {
-  "@type": "ItemList",
-  "name": "AEO Services",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "item": {
-        "@type": "Service",
-        "name": "AEO Strategy Development"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "item": {
-        "@type": "Service",
-        "name": "Content Optimization"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "item": {
-        "@type": "Service",
-        "name": "FAQ Optimization"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "item": {
-        "@type": "Service",
-        "name": "Featured Snippet Optimization"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "item": {
-        "@type": "Service",
-        "name": "Schema Markup Implementation"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 6,
-      "item": {
-        "@type": "Service",
-        "name": "Entity Optimization"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 7,
-      "item": {
-        "@type": "Service",
-        "name": "AI Search Visibility Audits"
-      }
-    }
-  ]
-},
 
     {
       "@type": "FAQPage",
-      "@id":
-        "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services/#faq",
-      mainEntity: [
+      "@id": "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services/#faq",
+      "mainEntityOfPage": {
+        "@id": "https://shubhamshonkhlay-github-io.vercel.app/answer-engine-optimization-services/#webpage"
+      },
+      "mainEntity": [
         {
           "@type": "Question",
-          name: "What is Answer Engine Optimization?",
-          acceptedAnswer: {
+          "name": "What is Answer Engine Optimization?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text:
-              "Answer Engine Optimization is the process of structuring content so search engines and AI systems can understand, extract and present it as direct answers."
+            "text": "Answer Engine Optimization is the process of structuring content so search engines and AI systems can understand, extract and present it as direct answers."
           }
         },
         {
           "@type": "Question",
-          name: "Is AEO replacing SEO?",
-          acceptedAnswer: {
+          "name": "Is AEO replacing SEO?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text:
-              "No. AEO complements SEO. The strongest visibility strategy combines SEO, GEO and AEO."
+            "text": "No. AEO complements SEO. The strongest visibility strategy combines SEO, GEO and AEO."
           }
         },
         {
           "@type": "Question",
-          name: "What is the difference between GEO and AEO?",
-          acceptedAnswer: {
+          "name": "What is the difference between GEO and AEO?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text:
-              "GEO focuses on visibility within AI-generated responses while AEO focuses on becoming the direct answer shown by answer engines."
+            "text": "GEO focuses on visibility within AI-generated responses while AEO focuses on becoming the direct answer shown by answer engines."
           }
         },
         {
           "@type": "Question",
-          name: "Can AEO help with ChatGPT visibility?",
-          acceptedAnswer: {
+          "name": "Can AEO help with ChatGPT visibility?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text:
-              "Yes. AEO improves content structure, authority and clarity, increasing the likelihood of being referenced by AI systems."
+            "text": "Yes. AEO improves content structure, authority and clarity, increasing the likelihood of being referenced by AI systems."
           }
         },
         {
           "@type": "Question",
-          name: "Does Google AI Overview use AEO principles?",
-          acceptedAnswer: {
+          "name": "Does Google AI Overview use AEO principles?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text:
-              "Yes. Content that is clear, authoritative and well structured is more likely to appear in Google AI Overviews."
+            "text": "Yes. Content that is clear, authoritative and well structured is more likely to appear in Google AI Overviews."
           }
         },
         {
           "@type": "Question",
-          name: "How long does AEO take?",
-          acceptedAnswer: {
+          "name": "How long does AEO take?",
+          "acceptedAnswer": {
             "@type": "Answer",
-            text:
-              "Results vary depending on competition, authority and content quality, but improvements generally occur over several months."
+            "text": "Results vary depending on competition, authority and content quality, but improvements generally occur over several months."
           }
         }
       ]
     }
+
   ]
 };
 
