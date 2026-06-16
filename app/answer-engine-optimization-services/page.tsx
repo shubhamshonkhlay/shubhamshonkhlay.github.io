@@ -25,9 +25,7 @@ export default function AEOPage() {
 
           <div className="max-w-4xl">
 
-            <span className="inline-flex items-center rounded-full border bg-white px-4 py-2 text-sm font-medium shadow-sm">
-              AI Search Optimization • AEO Services India
-            </span>
+           
 
             <h1 className="mt-6 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-7xl">
               Answer Engine Optimization (AEO) Services in India
@@ -100,9 +98,7 @@ export default function AEOPage() {
         <div className="grid gap-16 lg:grid-cols-2 lg:gap-20">
 
           <div>
-            <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
-              AEO Fundamentals
-            </span>
+            
 
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 lg:text-5xl">
               What is Answer Engine Optimization (AEO)?
@@ -183,9 +179,7 @@ export default function AEOPage() {
 
 <div className="mx-auto max-w-3xl text-center">
 
-  <span className="inline-flex rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
-    Future of Search
-  </span>
+
 
   <h2 className="mt-6 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl">
     Why AEO Matters in 2026 and Beyond
@@ -326,9 +320,7 @@ export default function AEOPage() {
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
     <div className="text-center">
-      <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
-        Comparison
-      </span>
+      
 
       <h2 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl">
         AEO vs SEO: What's the Difference?
@@ -434,9 +426,7 @@ export default function AEOPage() {
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
     <div className="mx-auto max-w-3xl text-center">
-      <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
-        AI Search Signals
-      </span>
+      
 
       <h2 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl">
         How Answer Engines Choose Content
@@ -509,9 +499,7 @@ export default function AEOPage() {
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
     <div className="mx-auto max-w-3xl text-center">
-      <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
-        Services
-      </span>
+      
 
       <h2 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl">
         Our AEO Services
@@ -590,10 +578,7 @@ export default function AEOPage() {
 
     <div className="mx-auto max-w-3xl text-center">
 
-      <span className="inline-flex rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
-        Search Visibility Framework
-      </span>
-
+      
       <h2 className="mt-6 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl">
         How SEO, GEO & AEO Work Together
       </h2>
@@ -771,9 +756,7 @@ export default function AEOPage() {
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
     <div className="mx-auto max-w-3xl text-center">
-      <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
-        Benefits
-      </span>
+     
 
       <h2 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl">
         Benefits of Answer Engine Optimization
@@ -840,9 +823,7 @@ export default function AEOPage() {
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
     <div className="mx-auto max-w-3xl text-center">
-      <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
-        Industries We Serve
-      </span>
+      
 
       <h2 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl">
         Industries That Benefit from AEO
@@ -896,9 +877,7 @@ export default function AEOPage() {
   <div className="mx-auto max-w-5xl px-6 lg:px-8">
 
     <div className="text-center">
-      <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
-        Frequently Asked Questions
-      </span>
+      
 
       <h2 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl">
         Frequently Asked Questions About AEO
@@ -957,10 +936,7 @@ export default function AEOPage() {
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
     <div className="mx-auto max-w-3xl text-center">
-      <span className="inline-flex rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
-        Why Choose Us
-      </span>
-
+    
       <h2 className="mt-6 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl">
         Why Work With Us?
       </h2>
@@ -1065,9 +1041,7 @@ export default function AEOPage() {
 
       <div className="text-center">
 
-        <span className="inline-flex rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
-          Free Consultation
-        </span>
+
 
         <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 lg:text-5xl">
           Start Building AI Search Visibility Today
