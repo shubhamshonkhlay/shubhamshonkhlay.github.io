@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+/* ========================================
+   THEME
+======================================== */
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -13,13 +17,6 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 /* ========================================
    GLOBAL RESET
 ======================================== */
@@ -28,22 +25,29 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-  scroll-behavior: smooth;
+  width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
+
+  background: #ffffff;
+  color: #171717;
+
+  font-family: Arial, Helvetica, sans-serif;
+
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* ========================================
@@ -61,7 +65,16 @@ svg {
 }
 
 /* ========================================
-   FORM ELEMENTS
+   LINKS
+======================================== */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ========================================
+   FORMS
 ======================================== */
 
 input,
@@ -71,18 +84,26 @@ button {
   font: inherit;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* ========================================
    PREVENT MOBILE OVERFLOW
 ======================================== */
 
-section,
 main,
-div {
+section,
+div,
+article,
+aside,
+header,
+footer {
   min-width: 0;
 }
 
 /* ========================================
-   TYPOGRAPHY IMPROVEMENTS
+   TYPOGRAPHY
 ======================================== */
 
 h1,
@@ -92,6 +113,7 @@ h4,
 h5,
 h6 {
   text-wrap: balance;
+  line-height: 1.15;
 }
 
 p {
@@ -99,7 +121,7 @@ p {
 }
 
 /* ========================================
-   COMMON CONTAINER CLASS
+   COMMON CONTAINER
 ======================================== */
 
 .container-fluid {
@@ -128,26 +150,55 @@ p {
 }
 
 /* ========================================
-   BETTER MOBILE SPACING
+   MOBILE IMPROVEMENTS
 ======================================== */
 
 @media (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+
   section {
     overflow-x: hidden;
+  }
+
+  h1 {
+    line-height: 1.1;
+  }
+
+  h2 {
+    line-height: 1.15;
   }
 }
 
 /* ========================================
-   SELECTION STYLE
+   SCROLLBAR
+======================================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* ========================================
+   TEXT SELECTION
 ======================================== */
 
 ::selection {
   background: #2563eb;
-  color: white;
+  color: #ffffff;
 }
 
 /* ========================================
-   FOCUS ACCESSIBILITY
+   ACCESSIBILITY
 ======================================== */
 
 :focus-visible {
