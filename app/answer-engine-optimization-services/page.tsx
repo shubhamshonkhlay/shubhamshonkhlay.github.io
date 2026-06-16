@@ -109,16 +109,30 @@ export default function AEOPage() {
             </h2>
 
             <p className="mt-8 text-lg leading-8 text-gray-700">
-              Answer Engine Optimization (AEO) is the process of optimizing
-              website content so that search engines and AI systems can
-              easily understand, extract, and present your information as
-              direct answers to user questions.
-            </p>
+  Answer Engine Optimization (AEO) is the process of optimizing
+  website content so that search engines and AI systems can
+  easily understand, extract, and present your information as
+  direct answers to user questions. AEO works alongside{" "}
+  <Link
+    href="/seo-geo-aeo-consultant-india"
+    className="font-semibold text-blue-600 hover:underline"
+  >
+    SEO, GEO and AI search optimization strategies
+  </Link>{" "}
+  to improve visibility across modern search platforms.
+</p>
 
             <p className="mt-6 text-lg leading-8 text-gray-700">
-              Unlike traditional SEO, which focuses primarily on rankings
-              and clicks, AEO focuses on becoming the answer itself.
-            </p>
+  Unlike traditional{" "}
+  <Link
+    href="/seo-geo-aeo-consultant-india"
+    className="font-semibold text-blue-600 hover:underline"
+  >
+    SEO services
+  </Link>
+  , which focus primarily on rankings and clicks, AEO focuses on
+  becoming the answer itself within AI-powered search experiences.
+</p>
 
             <p className="mt-6 text-lg leading-8 text-gray-700">
               AEO ensures your content is structured in a way that answer
@@ -160,7 +174,7 @@ export default function AEOPage() {
         </div>
       </section>
 
-      ```tsx
+
 {/* WHY AEO MATTERS */}
 <section className="bg-slate-50 py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -232,9 +246,23 @@ export default function AEOPage() {
       </h2>
 
       <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-        While SEO and AEO work together, they serve different objectives.
-        The strongest visibility strategy combines SEO, GEO, and AEO.
-      </p>
+  While SEO and AEO work together, they serve different objectives.
+  The strongest visibility strategy combines{" "}
+  <Link
+    href="/seo-geo-aeo-consultant-india"
+    className="font-semibold text-blue-600 hover:underline"
+  >
+    SEO
+  </Link>
+  ,{" "}
+  <Link
+    href="/geo"
+    className="font-semibold text-blue-600 hover:underline"
+  >
+    GEO
+  </Link>
+  , and AEO into a unified AI search visibility framework.
+</p>
     </div>
 
     <div className="mt-16 grid gap-8 lg:grid-cols-2">
@@ -386,7 +414,7 @@ export default function AEOPage() {
   </div>
 </section>
 
-```tsx
+
 {/* OUR AEO SERVICES */}
 <section className="py-24">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -517,9 +545,15 @@ export default function AEOPage() {
         </p>
 
         <p className="mt-6 leading-7 text-blue-50">
-          Improves visibility in AI-generated responses across ChatGPT,
-          Gemini, Claude, Perplexity, and other AI assistants.
-        </p>
+  Improves visibility in AI-generated responses across ChatGPT,
+  Gemini, Claude, Perplexity, and other AI assistants through{" "}
+  <Link
+    href="/geo"
+    className="font-semibold underline"
+  >
+    Generative Engine Optimization
+  </Link>.
+</p>
       </div>
 
       <div className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur">
@@ -543,10 +577,24 @@ export default function AEOPage() {
 
     <div className="mx-auto mt-16 max-w-4xl text-center">
       <p className="text-xl leading-8 text-slate-300">
-        Together, SEO, GEO, and AEO create a comprehensive search visibility
-        strategy. Businesses that implement all three are better positioned
-        for future search behavior and AI-driven discovery.
-      </p>
+  Together,{" "}
+  <Link
+    href="/seo-geo-aeo-consultant-india"
+    className="font-semibold text-blue-300 underline"
+  >
+    SEO
+  </Link>
+  ,{" "}
+  <Link
+    href="/geo"
+    className="font-semibold text-blue-300 underline"
+  >
+    GEO
+  </Link>
+  , and AEO create a comprehensive search visibility strategy.
+  Businesses that implement all three are better positioned for
+  future search behavior and AI-driven discovery.
+</p>
     </div>
 
   </div>
