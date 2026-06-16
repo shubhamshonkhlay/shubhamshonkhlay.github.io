@@ -8,6 +8,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -19,8 +20,137 @@
   }
 }
 
+/* ========================================
+   GLOBAL RESET
+======================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ========================================
+   RESPONSIVE MEDIA
+======================================== */
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ========================================
+   FORM ELEMENTS
+======================================== */
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+/* ========================================
+   PREVENT MOBILE OVERFLOW
+======================================== */
+
+section,
+main,
+div {
+  min-width: 0;
+}
+
+/* ========================================
+   TYPOGRAPHY IMPROVEMENTS
+======================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* ========================================
+   COMMON CONTAINER CLASS
+======================================== */
+
+.container-fluid {
+  width: 100%;
+  max-width: 1600px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-fluid {
+    padding-inline: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-fluid {
+    padding-inline: 3rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container-fluid {
+    padding-inline: 4rem;
+  }
+}
+
+/* ========================================
+   BETTER MOBILE SPACING
+======================================== */
+
+@media (max-width: 640px) {
+  section {
+    overflow-x: hidden;
+  }
+}
+
+/* ========================================
+   SELECTION STYLE
+======================================== */
+
+::selection {
+  background: #2563eb;
+  color: white;
+}
+
+/* ========================================
+   FOCUS ACCESSIBILITY
+======================================== */
+
+:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
 }
