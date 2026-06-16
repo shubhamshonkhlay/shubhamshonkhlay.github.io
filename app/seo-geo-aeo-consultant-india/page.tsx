@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import StaggerSection from "../../component/StaggerContainer";
 
 export const metadata: Metadata = {
   title:
@@ -130,7 +131,8 @@ export default function SEOPage() {
       <main className="w-full text-gray-900 overflow-x-hidden">
 
         {/* HERO */}
-        <section className="relative overflow-hidden py-24">
+        <StaggerSection>
+          <section className="relative overflow-hidden py-24">
   <div className="absolute inset-0 bg-gradient-to-r from-blue-50 via-purple-50 to-cyan-50" />
 
   <div className="relative max-w-7xl mx-auto px-6">
@@ -195,10 +197,13 @@ export default function SEOPage() {
     </div>
   </div>
 </section>
+</StaggerSection>
+
 
  {/* ABOUT SECTION */}
 
-<section className="py-24">
+<StaggerSection>
+  <section className="py-24">
 
   <div className="max-w-6xl mx-auto px-6">
 
@@ -331,10 +336,12 @@ export default function SEOPage() {
   </div>
 
 </section>
+</StaggerSection>
 
 
 {/* SEO GEO AEO SECTION */}
 
+<StaggerSection>
 <section className="py-24 bg-gradient-to-b from-gray-50 to-white rounded-[40px] mt-10">
   <div className="max-w-5xl mx-auto px-6">
 
@@ -489,6 +496,7 @@ export default function SEOPage() {
 
 </div>
 </section>
+</StaggerSection>
 
 {/* WHO I WORK WITH */}
 
