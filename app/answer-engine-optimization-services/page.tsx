@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import Script from "next/script";
 
 const schema = {
   "@context": "https://schema.org",
