@@ -1363,12 +1363,12 @@ export default function AEOPage() {
         >
           </Link>
           SEO
-        <AnimatedLink
-  href="/geo"
-  className="font-semibold text-blue-700"
->
-  GEO
-</AnimatedLink>
+<Link
+           href="/geo"
+          className="font-semibold text-blue-700 hover:underline"
+        >
+          GEO
+        </Link>{" "}
         , and{" "}
         <Link
           href="/answer-engine-optimization-services"
