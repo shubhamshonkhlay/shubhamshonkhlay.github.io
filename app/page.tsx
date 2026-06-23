@@ -1,4 +1,4 @@
-import HeroExperience from "../../shubham-brand/component/src/ui/ui/HeroExperience";
+import HeroExperience from "../component/src/ui/ui/HeroExperience";
 
 export default function Home() {
   return (
