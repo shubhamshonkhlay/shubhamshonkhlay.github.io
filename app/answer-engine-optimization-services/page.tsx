@@ -1010,12 +1010,12 @@ export default function AEOPage() {
           </p>
 
           <div className="mt-6">
-            <Link
-              href="/geo"
-              className="font-semibold text-blue-700 hover:underline"
-            >
-              Learn More About GEO →
-            </Link>
+            <AnimatedLink
+  href="/geo"
+  className="font-semibold text-blue-700"
+>
+  Learn More About GEO
+</AnimatedLink>
           </div>
 
         </div>
@@ -1361,15 +1361,14 @@ export default function AEOPage() {
           href="/seo-geo-aeo-consultant-india"
           className="font-semibold text-blue-700 hover:underline"
         >
+          </Link>
           SEO
-        </Link>
-        ,{" "}
-        <Link
-          href="/geo"
-          className="font-semibold text-blue-700 hover:underline"
-        >
-          GEO
-        </Link>
+        <AnimatedLink
+  href="/geo"
+  className="font-semibold text-blue-700"
+>
+  GEO
+</AnimatedLink>
         , and{" "}
         <Link
           href="/answer-engine-optimization-services"
