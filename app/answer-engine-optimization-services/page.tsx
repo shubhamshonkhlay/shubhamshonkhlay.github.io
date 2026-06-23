@@ -2,7 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import Script from "next/script";
-import ScrollReveal from "../../component/ScrollReveal";
+import ScrollReveal from "../../component/src/ui/ui/ScrollReveal";
+import AnimatedLink from "../../component/src/ui/ui/AnimatedLink";
 
 export const metadata: Metadata = {
   title:
@@ -687,12 +688,12 @@ export default function AEOPage() {
     SEO
   </Link>
   ,{" "}
-  <Link
-    href="/geo"
-    className="font-semibold text-blue-600 hover:underline"
-  >
-    GEO
-  </Link>
+  <AnimatedLink
+  href="/geo"
+  className="font-semibold text-blue-700"
+>
+  Learn More About GEO
+</AnimatedLink>
   , and AEO into a unified AI search visibility framework.
 </p>
     </div>
