@@ -692,7 +692,7 @@ export default function AEOPage() {
   href="/geo"
   className="font-semibold text-blue-700"
 >
-  Learn More About GEO
+  Learn More About GEOO
 </AnimatedLink>
   , and AEO into a unified AI search visibility framework.
 </p>
