@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
-import StaggerSection from "../../component/StaggerContainer";
+import StaggerSection from "../../component/src/ui/ui/StaggerContainer";
 
 export const metadata: Metadata = {
   title:
