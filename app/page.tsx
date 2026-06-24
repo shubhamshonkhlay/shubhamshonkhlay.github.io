@@ -9,7 +9,7 @@ export default function Home() {
         </p>
 
         <h1 className="text-6xl font-bold text-[#111827] mb-6">
-          Helping Businesses Grow Through SEO, GEO & AI Search
+          Helping Businesses Grow Through SEO, GEO & AI Search in today era
         </h1>
 
         <p className="text-xl text-gray-600 max-w-3xl mb-8">
